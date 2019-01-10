@@ -4,9 +4,93 @@
              xmlns:local="clr-namespace:Prototype"
              x:Class="Prototype.MainPage">
 
-    <StackLayout>
+    <AbsoluteLayout>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="AspectFill" />
+        </Grid>
 
-        <Button Text="Recherche par norme" HorizontalOptions="Center" VerticalOptions="Center" Clicked="BtnRechercheParNorme_Clicked"/>
-    </StackLayout>
+        <StackLayout>
+            <Label Text="Tarauds et filtages par LMDT"
+               TextColor="WhiteSmoke"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="StartAndExpand" 
+               FontSize="Medium"
+               HeightRequest="60"/>
+
+            <Label Text="Recherche par"
+               TextColor="WhiteSmoke"
+               HorizontalOptions="Center"
+               VerticalOptions="End" 
+               FontSize="Medium"/>
+
+            <Grid Margin="18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Normes"
+                BackgroundColor="SaddleBrown"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="110" 
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1"
+                Grid.Row="0" Grid.Column="0"
+                Clicked="BtnRechercheParNorme_Clicked"/>
+
+                <Button Text="Diametres"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="110" 
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1"
+                Grid.Row="0" Grid.Column="1"
+                Clicked="BtnRechercheParDiametre_Clicked"/>
+            </Grid>
+
+            <Button Text="Convertisseurs"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="150" 
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1"
+                Margin="18"
+                Clicked="BtnConvertisseurs_Clicked"/>
+
+            <Button Text="Conseils"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                WidthRequest="150"
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1"
+                Margin="20"
+                Clicked="BtnConseils_Clicked"/>
+
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Logo_lmdt_app-1-450x229.png"
+               HorizontalOptions="Center"
+               Margin="-35"/>
+
+        </StackLayout>
+    </AbsoluteLayout>
 
 </ContentPage>
