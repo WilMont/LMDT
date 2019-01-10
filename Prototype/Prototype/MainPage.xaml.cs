@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +13,5 @@ namespace Prototype
         {
             InitializeComponent();
         }
-
-        async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
-        {
-            await Navigation.PushAsync(new RechercheParNormePage());
-        }
-
     }
 }
