@@ -44,7 +44,7 @@
                 BorderRadius="7"
                 BorderWidth="1"
                 Grid.Row="0" Grid.Column="0"
-                Clicked=""/>
+                Clicked="BtnRechercheParNorme_Clicked"/>
 
                 <Button Text="Diametres"
                 TextColor="Black"
