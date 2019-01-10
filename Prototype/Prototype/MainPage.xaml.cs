@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,14 +12,13 @@ namespace Prototype
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
-        int count = 0;
-        void Button_Clicked(object sender, System.EventArgs e)
+        async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
         {
-            count++;
-            ((Button)sender).Text = $"You clicked {count} times.";
+            await Navigation.PushAsync(new RechercheParNormePage());
         }
+
     }
 }
