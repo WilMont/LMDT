@@ -18,6 +18,11 @@ namespace Prototype
             await Navigation.PushAsync(new RechercheParNormePage());
         }
 
+        async void BtnRechercheParDiametre_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new RechercheParDiametrePage());
+        }
+
         async void BtnConvertisseurs_Clicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new ConvertisseursPage());
