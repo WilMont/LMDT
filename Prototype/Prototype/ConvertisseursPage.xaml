@@ -12,7 +12,7 @@
             
             <StackLayout>
 
-                <Button Text="mm / pouces"
+                <Button Text="mm / pouce"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"

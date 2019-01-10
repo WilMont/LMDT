@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Prototype"
              x:Class="Prototype.MainPage">
 
-    <AbsoluteLayout>
+    <Grid>
         
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
@@ -23,7 +23,7 @@
                VerticalOptions="End" 
                FontSize="Medium"/>
 
-            <Grid Margin="18">
+            <Grid HeightRequest="60">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
@@ -35,8 +35,7 @@
                 <Button Text="Normes"
                 BackgroundColor="SaddleBrown"
                 TextColor="Black"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 WidthRequest="110" 
                 FontSize="Default"
                 BorderColor="Black"
@@ -48,8 +47,7 @@
                 <Button Text="Diametres"
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 WidthRequest="110" 
                 FontSize="Default"
                 BorderColor="Black"
@@ -61,7 +59,7 @@
             <Button Text="Convertisseurs"
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
-                HorizontalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"
                 WidthRequest="150" 
                 FontSize="Default"
@@ -74,20 +72,19 @@
             <Button Text="Conseils"
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
                 WidthRequest="150"
                 FontSize="Default"
                 BorderColor="Black"
                 BorderRadius="7"
                 BorderWidth="1"
-                Margin="20"/>
+                Clicked="BtnConseils_Clicked"/>
 
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Logo_lmdt_app-1-450x229.png"
-               HorizontalOptions="Center"
-               Margin="-35"/>
+               HorizontalOptions="Center"/>
 
         </StackLayout>
-    </AbsoluteLayout>
+    </Grid>
 
 </ContentPage>
