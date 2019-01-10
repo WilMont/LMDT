@@ -12,7 +12,7 @@ namespace Prototype
     {
         public MainPage()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
 
         async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
