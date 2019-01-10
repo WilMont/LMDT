@@ -13,12 +13,5 @@ namespace Prototype
         {
             InitializeComponent();
         }
-
-        int count = 0;
-        void Button_Clicked(object sender, System.EventArgs e)
-        {
-            count++;
-            ((Button)sender).Text = $"You clicked {count} times.";
-        }
     }
 }
