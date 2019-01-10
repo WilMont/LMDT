@@ -3,25 +3,47 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype.RechercheParNormePage">
     <ContentPage.Content>
-        <StackLayout>
-            <ListView>
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>METRIQUE / M</x:String>
-                        <x:String>METRIQUE FIN / MF</x:String>
-                        <x:String>AMERICAIN / UNC</x:String>
-                        <x:String>AMERICAIN FIN / UNF</x:String>
-                        <x:String>AMERICAIN EXTRA FIN / UNEF</x:String>
-                        <x:String>ANGLAIS / BSW</x:String>
-                        <x:String>ANGLAIS FIN / BSF</x:String>
-                        <x:String>GAZ CYLINDRIQUE / BSP</x:String>
-                        <x:String>GAZ CONIQUE AMERICAIN / NPT</x:String>
-                        <x:String>GAZ CONIQUE ANGLAIS / BSPT</x:String>
-                        <x:String>PAS ELECTRIQUE / PT</x:String>
-                        <x:String>TRAPEZE / TR</x:String>
-                    </x:Array>
-                </ListView.ItemsSource>
-            </ListView>
-        </StackLayout>
+        
+        <AbsoluteLayout>
+            <Grid>
+                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="AspectFill" />
+                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="AspectFill"
+                   Opacity="0.5"/>
+            </Grid>
+
+
+            <StackLayout>
+                <ListView>
+                    <ListView.ItemsSource TextColor="Black">
+                        <x:Array Type="{x:Type local:Norme}">
+                            <x:Norme Name="METRIQUE / M"/>
+                            <x:Norme Name="METRIQUE FIN / MF"/>
+                            <x:Norme Name="AMERICAIN / UNC"/>
+                            <x:Norme Name="AMERICAIN FIN / UNF"/>
+                            <x:Norme Name="AMERICAIN EXTRA FIN / UNEF"/>
+                            <x:Norme Name="ANGLAIS / BSW"/>
+                            <x:Norme Name="ANGLAIS FIN / BSF"/>
+                            <x:Norme Name="GAZ CYLINDRIQUE / BSP"/>
+                            <x:Norme Name="GAZ CONIQUE AMERICAIN / NPT"/>
+                            <x:Norme Name="GAZ CONIQUE ANGLAIS / BSPT"/>
+                            <x:Norme Name="PAS ELECTRIQUE / PT"/>
+                            <x:Norme Name="TRAPEZE / TR"/>
+                        </x:Array>
+                    </ListView.ItemsSource>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Label Text="{Binding Nom}" TextColor="Black"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </AbsoluteLayout>
+        
     </ContentPage.Content>
 </ContentPage>
