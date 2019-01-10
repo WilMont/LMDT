@@ -1,42 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype.ConvertisseursPage">
+             x:Class="Prototype.ConvertisseursPage"
+             Padding="0">
+    
+    
     <ContentPage.Content>
-
-        <RelativeLayout>
-            
-                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
             
+            <StackLayout>
 
-                <StackLayout>
-            
-                    <Button Text="mm / pouces"
-                        TextColor="Black"
-                        BackgroundColor="SaddleBrown"
+                <Button Text="mm / pouces"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        WidthRequest="150"
-                        FontSize="Default"
-                        BorderColor="Black"
-                        BorderRadius="7"
-                        BorderWidth="1"/>
-            
-                    <Button Text="mm / gaz"
-                        TextColor="Black"
-                        BackgroundColor="SaddleBrown"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        WidthRequest="150"
-                        FontSize="Default"
-                        BorderColor="Black"
-                        BorderRadius="7"
-                        BorderWidth="1"/>
-            
-            
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"/>
+
+                <Button Text="mm / gaz"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"/>
             </StackLayout>
-        </RelativeLayout>
-        
+        </Grid>
     </ContentPage.Content>
+    
 </ContentPage>

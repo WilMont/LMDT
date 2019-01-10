@@ -5,10 +5,9 @@
              x:Class="Prototype.MainPage">
 
     <AbsoluteLayout>
-        <Grid>
+        
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
-                   Aspect="AspectFill" />
-        </Grid>
+                   Aspect="Fill" />
 
         <StackLayout>
             <Label Text="Tarauds et filtages par LMDT"
