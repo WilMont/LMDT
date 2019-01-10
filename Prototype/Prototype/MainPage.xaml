@@ -43,7 +43,8 @@
                 BorderColor="Black"
                 BorderRadius="7"
                 BorderWidth="1"
-                Grid.Row="0" Grid.Column="0"/>
+                Grid.Row="0" Grid.Column="0"
+                Clicked=""/>
 
                 <Button Text="Diametres"
                 TextColor="Black"
