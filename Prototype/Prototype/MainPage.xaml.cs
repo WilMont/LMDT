@@ -17,7 +17,7 @@ namespace Prototype
 
         async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new RechercheParNormePage()); //Si je suis là c'est que ça marche
+            await Navigation.PushAsync(new RechercheParNormePage());
         }
 
     }
