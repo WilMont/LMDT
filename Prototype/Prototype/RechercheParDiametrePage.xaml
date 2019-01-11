@@ -1,12 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype.RechercheParDiametrePage">
-    <ContentPage.Content>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Prototype" x:Class="Prototype.RechercheParDiametrePage" Title="Diamètres" Icon="xaml.png">
+
+    <Grid>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="Fill" 
+                   Opacity="0.5" />
+        </Grid>
+
         <StackLayout>
-            <Label Text="Page de recherche par diamètre"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Liste des diamètres" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <ListView SelectionMode="None">
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:Diametre}">
+                        <local:Diametre Valeur="METRIQUE / M"/>
+                        <local:Diametre Valeur="METRIQUE FIN / MF"/>
+                        <local:Diametre Valeur="AMERICAIN / UNC"/>
+                        <local:Diametre Valeur="AMERICAIN FIN / UNF"/>
+                        <local:Diametre Valeur="AMERICAIN EXTRA FIN / UNEF"/>
+                        <local:Diametre Valeur="ANGLAIS / BSW"/>
+                        <local:Diametre Valeur="ANGLAIS FIN / BSF"/>
+                        <local:Diametre Valeur="GAZ CYLINDRIQUE / BSP"/>
+                        <local:Diametre Valeur="GAZ CONIQUE AMERICAIN / NPT"/>
+                        <local:Diametre Valeur="GAZ CONIQUE ANGLAIS / BSPT"/>
+                        <local:Diametre Valeur="PAS ELECTRIQUE / PG"/>
+                        <local:Diametre Valeur="TRAPEZE / TR"/>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1.0*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Valeur}" FontAttributes="Bold" VerticalOptions="Center"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
-    </ContentPage.Content>
+    </Grid>
 </ContentPage>

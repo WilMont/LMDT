@@ -14,10 +14,28 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="ConseilsIncidentsEtResolutionsPage.xaml.cs">
+      <DependentUpon>ConseilsIncidentsEtResolutionsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="CustomNavigationPage.xaml.cs">
+      <DependentUpon>CustomNavigationPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ConseilsIncidentsEtResolutionsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="ConseilsMesurerUnFiletagePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="ConseilsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ConvertisseursPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="CustomNavigationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="RechercheParDiametrePage.xaml">

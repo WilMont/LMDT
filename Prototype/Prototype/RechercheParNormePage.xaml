@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Prototype" x:Class="Prototype.RechercheParNormePage" Title="Normes" Icon="xaml.png">
 
-    <AbsoluteLayout>
+    <Grid>
         <Grid>
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="AspectFill" />
@@ -34,7 +34,7 @@
                         <ViewCell>
                             <Grid>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="1.0*" />
+                                    <ColumnDefinition Width="1.0*"/>
                                 </Grid.ColumnDefinitions>
                                 <Label Text="{Binding Nom}" FontAttributes="Bold" VerticalOptions="Center"/>
                             </Grid>
@@ -43,5 +43,5 @@
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
-    </AbsoluteLayout>
+    </Grid>
 </ContentPage>

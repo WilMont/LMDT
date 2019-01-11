@@ -3,10 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype.ConseilsPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Page des Conseils"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+        Aspect="Fill" />
+
+            <StackLayout>
+                <Label Text="Les conseils du Pro!"
+                TextColor="WhiteSmoke"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+
+                <Button Text="Mesurer un filetage"
+                        TextColor="Black"
+                        BackgroundColor="SaddleBrown"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        FontSize="Default"
+                        BorderColor="Black"
+                        BorderRadius="7"
+                        BorderWidth="1"
+                        Clicked="BtnMesurerUnFiletage_Clicked"/>
+
+                <Button Text="Incidents / Résolutions"
+                        TextColor="Black"
+                        BackgroundColor="SaddleBrown"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        FontSize="Default"
+                        BorderColor="Black"
+                        BorderRadius="7"
+                        BorderWidth="1"
+                        Clicked="IncidentsEtResolutions_Clicked"/>
+
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
