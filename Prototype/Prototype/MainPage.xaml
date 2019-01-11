@@ -5,8 +5,8 @@
              x:Class="Prototype.MainPage">
 
     <Grid>
-        
-            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+
+        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
 
         <StackLayout>

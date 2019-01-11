@@ -12,7 +12,7 @@
 
 
 
-            <StackLayout>
+           <!-- <StackLayout>
                 <ListView>
                     <ListView.ItemsSource TextColor="Black">
                         <x:Array Type="{x:Type local:Norme}">
@@ -40,7 +40,7 @@
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </StackLayout>
+            </StackLayout>  -->
          </Grid>
     </ContentPage.Content>
 </ContentPage>

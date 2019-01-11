@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.ConseilsIncidentsEtResolutionsPage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="AspectFill"
+                   Opacity="0.5"/>
+            <ScrollView>
+            <StackLayout>
+
+                <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" Text="Durant le taraudage de votre pièce, il est possible que vous rencontriez les 5 incidents décrits ci-dessous." />
+                <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"  Text="Ils sont accompagnés de leurs causes probables." />
+                <Label TextColor="Black" FontSize="Small"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="1) Taraudage trop grand : " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Géométrie de taraud inappropriée " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Collage sur les flancs du taraud " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Profondeur de taraudage trop faible" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Vitesse de coupe trop élevée " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvaise lubrification " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvais choix de tolérance" />
+                    <Label TextColor="Black" FontSize="Default"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="2) Taraudage trop serrés : " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvais choix de tolérance " />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Géométrie de taraud inappropriée" />
+                    <Label TextColor="Black" FontSize="Small"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="3) Casse du taraud en retour :" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Diamètre d'avant trou trop petit" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Profondeur d'avant trou trop faible" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Géométrie de taraud inappropriée" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvais bridage de la pièce" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvais alignement pièce/broche" />
+                    <Label TextColor="Black" FontSize="Small"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="4) Mauvais état de surface :" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Vitesse de coupe trop élevée" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Diamètre d'avant trou trop petit" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Géométrie de taraud inappropriée" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Collage sur les flancs du taraud" />
+                    <Label TextColor="Black" FontSize="Small"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="5) Durée de vie trop courte :" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Vitesse de coupe trop élevée" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Diamètre d'avant trou trop petit" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Parois de l'avant trou écrouie" />
+                        <Label TextColor="Black" FontSize="Default"  Text="- Mauvaise évacuation des copeaux" />
+                    <Label TextColor="Black" FontSize="Small"  Text=" " />
+            </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

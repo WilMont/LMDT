@@ -16,5 +16,15 @@ namespace Prototype
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void BtnMesurerUnFiletage_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ConseilsMesurerUnFiletagePage());
+        }
+
+        async void IncidentsEtResolutions_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ConseilsIncidentsEtResolutionsPage());
+        }
+    }
 }
