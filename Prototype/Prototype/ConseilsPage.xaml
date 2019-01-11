@@ -24,21 +24,9 @@
                         FontSize="Default"
                         BorderColor="Black"
                         BorderRadius="7"
-                        BorderWidth="1"/>
+                        BorderWidth="1"
+                        Clicked="BtnMesurerUnFiletage_Clicked"/>
                
-            <Label Text="Pour mesurer un filetage, il convient de se munir d'un pied à coulisse et idéalement d'une jauge de filetage ou peigne à filets.
-                         Un filetage se caractérise par 3 éléments :
-                         1/ le diamètre extérieur mesuré sur le sommet des filets.
-                         2/ le pas, c'est-à-dire le nombre de filets sur une mesure donnée.
-                         *Soit pour le métrique, le nombre de filets sur 1 cm
-                         Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm
-                         *Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm
-                         Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )
-                         3/ L'angle ou le profil de ces filets. 60° OU 55°"
-                        TextColor="Black"
-                        FontSize="Micro"
-                        IsVisible="False"/>
-
                 <Button Text="Incidents / Résolutions"
                         TextColor="Black"
                         BackgroundColor="SaddleBrown"
@@ -48,31 +36,8 @@
                         FontSize="Default"
                         BorderColor="Black"
                         BorderRadius="7"
-                        BorderWidth="1"/>
-
-                <Label Text="Durant le taraudage de votre pièce, il est possible que vous rencontriez les 5 incidents décrits ci-dessous. Ils sont accompagnés de leurs causes probables.
-
-                        1) Taraudage trop grand :
-                        - Géométrie de taraud inappropriée
-                        - Collage sur les flancs du taraud
-                        - Profondeur de taraudage trop faible
-                        - Vitesse de coupe trop élevée
-                        - Mauvaise lubrification
-                        - Mauvais choix de tolérance
-
-                        2) Taraudage trop serrés :
-                        - Mauvais choix de tolérance
-                        - Géométrie de taraud inappropriée
-
-                        3) Casse du taraud en retour :
-                        - Diamètre d'avant trou trop petit
-                        - Profondeur d'avant trou trop faible
-                        - Géométrie de taraud inappropriée
-                        - Mauvais bridage de la pièce
-                        - Mauvais alignement pièce/broche" 
-                       TextColor="Black"
-                       FontSize="Micro"
-                       IsVisible="False"/>
+                        BorderWidth="1"
+                        Clicked="IncidentsEtResolutions_Clicked"/>
 
             </StackLayout>
 </Grid>

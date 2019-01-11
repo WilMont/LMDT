@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.ConseilsMesurerUnFiletagePage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="AspectFill"
+                   Opacity="0.5"/>
+            <ScrollView>
+                <StackLayout>
+
+                    <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" Text="Pour mesurer un filetage, il convient de se munir d'un pied à coulisse et idéalement d'une jauge de filetage ou un peigne à filets." />
+                    <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"  Text="Un filetage se caractérise par 3 éléments :" />
+                    <Label TextColor="Black" FontSize="Small"  Text=" " />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="1/ le diamètre extérieur mesuré sur le sommet des filets." />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="2/ le pas, c'est-à-dire le nombre de filets sur une mesure donnée." />
+                    <Label TextColor="Black" FontSize="Default"  Text="*Soit pour le métrique, le nombre de filets sur 1 cm" />
+                    <Label TextColor="Black" FontSize="Default"  Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" />
+                    <Label TextColor="Black" FontSize="Default"  Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" />
+                    <Label TextColor="Black" FontSize="Default"  Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" />
+                    <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="3/ L'angle ou le profil de ces filets. 60° OU 55°" />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
