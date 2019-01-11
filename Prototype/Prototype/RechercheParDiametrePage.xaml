@@ -6,11 +6,44 @@
         <Grid>
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
-            <StackLayout>
-                <Label Text="Recherche par diametre!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            </StackLayout>
+
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="Diametre"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150" 
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1" />
+                    
+                    <Button Text="Pas"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150" 
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"/>
+                    
+                    <Button Text="Perçage"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"
+                            WidthRequest="150" 
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"/>
+                    
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
