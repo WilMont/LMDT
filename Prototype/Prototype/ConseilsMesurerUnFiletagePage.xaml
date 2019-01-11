@@ -9,9 +9,9 @@
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
                    Aspect="AspectFill"
                    Opacity="0.5"/>
+            
             <ScrollView>
                 <StackLayout>
-
                     <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" Text="Pour mesurer un filetage, il convient de se munir d'un pied à coulisse et idéalement d'une jauge de filetage ou un peigne à filets." />
                     <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"  Text="Un filetage se caractérise par 3 éléments :" />
                     <Label TextColor="Black" FontSize="Small"  Text=" " />
