@@ -1,49 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype.RechercheParNormePage">
-    <ContentPage.Content>
-        
-        <AbsoluteLayout>
-            <Grid>
-                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Prototype" x:Class="Prototype.RechercheParNormePage" Title="Normes" Icon="xaml.png">
+
+    <AbsoluteLayout>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="AspectFill" />
-                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
-                   Aspect="AspectFill"
-                   Opacity="0.5"/>
-            </Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="AspectFill" 
+                   Opacity="0.5" />
+        </Grid>
 
-
-            <StackLayout>
-                <ListView>
-                    <ListView.ItemsSource TextColor="Black">
-                        <x:Array Type="{x:Type local:Norme}">
-                            <x:Norme Name="METRIQUE / M"/>
-                            <x:Norme Name="METRIQUE FIN / MF"/>
-                            <x:Norme Name="AMERICAIN / UNC"/>
-                            <x:Norme Name="AMERICAIN FIN / UNF"/>
-                            <x:Norme Name="AMERICAIN EXTRA FIN / UNEF"/>
-                            <x:Norme Name="ANGLAIS / BSW"/>
-                            <x:Norme Name="ANGLAIS FIN / BSF"/>
-                            <x:Norme Name="GAZ CYLINDRIQUE / BSP"/>
-                            <x:Norme Name="GAZ CONIQUE AMERICAIN / NPT"/>
-                            <x:Norme Name="GAZ CONIQUE ANGLAIS / BSPT"/>
-                            <x:Norme Name="PAS ELECTRIQUE / PT"/>
-                            <x:Norme Name="TRAPEZE / TR"/>
-                        </x:Array>
-                    </ListView.ItemsSource>
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <Grid>
-                                    <Label Text="{Binding Nom}" TextColor="Black"/>
-                                </Grid>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </StackLayout>
-        </AbsoluteLayout>
-        
-    </ContentPage.Content>
+        <StackLayout>
+            <Label Text="Liste des normes" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <ListView>
+                <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:Norme}">
+                        <local:Norme Nom="METRIQUE / M"/>
+                        <local:Norme Nom="METRIQUE FIN / MF"/>
+                        <local:Norme Nom="AMERICAIN / UNC"/>
+                        <local:Norme Nom="AMERICAIN FIN / UNF"/>
+                        <local:Norme Nom="AMERICAIN EXTRA FIN / UNEF"/>
+                        <local:Norme Nom="ANGLAIS / BSW"/>
+                        <local:Norme Nom="ANGLAIS FIN / BSF"/>
+                        <local:Norme Nom="GAZ CYLINDRIQUE / BSP"/>
+                        <local:Norme Nom="GAZ CONIQUE AMERICAIN / NPT"/>
+                        <local:Norme Nom="GAZ CONIQUE ANGLAIS / BSPT"/>
+                        <local:Norme Nom="PAS ELECTRIQUE / PG"/>
+                        <local:Norme Nom="TRAPEZE / TR"/>
+                    </x:Array>
+                </ListView.ItemsSource>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1.0*" />
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding Nom}" FontAttributes="Bold" VerticalOptions="Center"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>
