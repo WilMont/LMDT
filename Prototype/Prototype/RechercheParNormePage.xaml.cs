@@ -9,12 +9,17 @@ using Xamarin.Forms.Xaml;
 
 namespace Prototype
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RechercheParNormePage : ContentPage
-	{
-		public RechercheParNormePage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class RechercheParNormePage : ContentPage
+    {
+        public RechercheParNormePage()
+        {
+            InitializeComponent();
+        }
+
+        async void Metrique_Button(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new NormeMetriquePage());
+        }
+    }
 }
