@@ -32,6 +32,13 @@ namespace Prototype
         async void BtnConseils_Clicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new ConseilsPage());
+
         }
+
+        protected void RedirectionSiteWeb(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.lamaisondutaraud.com"));
+        }
+
     }
 }
