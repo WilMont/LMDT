@@ -16,5 +16,15 @@ namespace Prototype
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void MMenPouce_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ConvertisseurMMenPouce());
+        }
+
+        async void MMenGaz_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new ConvertisseurMMenGazPage());
+        }
+    }
 }
