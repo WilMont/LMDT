@@ -3,15 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace Prototype
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RechercheParDiametrePage : ContentPage
+	public partial class NormeMetriquePage : ContentPage
 	{
-		public RechercheParDiametrePage ()
+		public NormeMetriquePage ()
 		{
 			InitializeComponent ();
 		}
@@ -24,8 +25,8 @@ namespace Prototype
                 Tab_Diametre.IsVisible = true;
                 BouttonChoixDiametre.IsVisible = false;
                 BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
-                  });
+                BouttonChoixForet.IsVisible = false;
+            });
         }
 
         public void Retour_Diametre(object sender, EventArgs args)
@@ -34,7 +35,7 @@ namespace Prototype
                 Tab_Diametre.IsVisible = false;
                 BouttonChoixDiametre.IsVisible = true;
                 BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
+                BouttonChoixForet.IsVisible = true;
             });
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -45,7 +46,7 @@ namespace Prototype
                 Tab_Pas.IsVisible = true;
                 BouttonChoixDiametre.IsVisible = false;
                 BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
+                BouttonChoixForet.IsVisible = false;
             });
         }
 
@@ -55,31 +56,30 @@ namespace Prototype
                 Tab_Pas.IsVisible = false;
                 BouttonChoixDiametre.IsVisible = true;
                 BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
+                BouttonChoixForet.IsVisible = true;
             });
         }
-        
+
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        public void ButtonChoixPerçage(object sender, EventArgs args)
+        public void ButtonChoixForet(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
-                Tab_Perçage.IsVisible = true;
+                Tab_Foret.IsVisible = true;
                 BouttonChoixDiametre.IsVisible = false;
                 BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
+                BouttonChoixForet.IsVisible = false;
             });
         }
 
-        public void Retour_Perçage(object sender, EventArgs args)
+        public void Retour_Foret(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
-                Tab_Perçage.IsVisible = false;
+                Tab_Foret.IsVisible = false;
                 BouttonChoixDiametre.IsVisible = true;
                 BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
+                BouttonChoixForet.IsVisible = true;
             });
         }
-
     }
 }
