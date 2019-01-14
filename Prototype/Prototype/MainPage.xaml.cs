@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reflection;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,14 +9,14 @@ namespace Prototype
 {
     public partial class MainPage : ContentPage
     {
+
         public MainPage()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
-
-        async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
+        void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
         {
-            await Navigation.PushAsync(new RechercheParNormePage());
+            Navigation.PushAsync(new RechercheParNormePage());
         }
 
         async void BtnRechercheParDiametre_Clicked(object sender, EventArgs args)
@@ -33,6 +32,12 @@ namespace Prototype
         async void BtnConseils_Clicked(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new ConseilsPage());
+
+        }
+
+        protected void RedirectionSiteWeb(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("https://www.lamaisondutaraud.com"));
         }
 
     }

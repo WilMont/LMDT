@@ -82,8 +82,10 @@
                 BorderWidth="1"
                 Clicked="BtnConseils_Clicked"/>
 
-            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Logo_lmdt_app-1-450x229.png"
-               HorizontalOptions="Center"/>
+            <Grid>
+                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Logo_lmdt_app-1-450x229.png"/>
+                <Button x:Name="Logo_LMDT" HorizontalOptions="Center" Opacity="0" Clicked="RedirectionSiteWeb"/>
+            </Grid>
 
         </StackLayout>
     </Grid>
