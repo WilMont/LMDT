@@ -7,10 +7,5 @@ namespace Prototype
     public class Diametre
     {
         public string Valeur { get; set; }
-
-        public override string ToString()
-        {
-            return Valeur;
-        }
     }
 }
