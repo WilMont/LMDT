@@ -31,7 +31,7 @@
                         <Button Text="GAZ CONIQUE AMERICAIN / NPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
                         <Button Text="GAZ CONIQUE ANGLAIS / BSPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
                         <Button Text="PAS ELECTRIQUE / PT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
-                        <Button Text="TRAPEZE / TR" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="TRAPEZE / TR" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0" Clicked="BtnNormeTrapeze_Clicked"/>
 
                     </Grid>
                 </StackLayout>

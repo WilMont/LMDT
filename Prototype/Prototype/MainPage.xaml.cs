@@ -14,9 +14,9 @@ namespace Prototype
         {
             InitializeComponent();
         }
-        void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
+        async void BtnRechercheParNorme_Clicked(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new RechercheParNormePage());
+            await Navigation.PushAsync(new RechercheParNormePage());
         }
 
         async void BtnRechercheParDiametre_Clicked(object sender, EventArgs args)

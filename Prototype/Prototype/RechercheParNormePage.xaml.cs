@@ -15,7 +15,11 @@ namespace Prototype
         public RechercheParNormePage()
         {
             InitializeComponent();
+        }
 
+        async void BtnNormeTrapeze_Clicked(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new NormeTrapezePage());
         }
     }
 }
