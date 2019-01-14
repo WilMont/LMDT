@@ -20,17 +20,17 @@
 
                         <Label Text="Choisissez une norme" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
 
-                        <Button Text="METRIQUE / M" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
-                        <Button Text="METRIQUE FIN / MF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="AMERICAIN / UNC" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
-                        <Button Text="AMERICAIN FIN / UNF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
-                        <Button Text="AMERICAIN EXTRA FIN / UNEF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
-                        <Button Text="ANGLAIS / BSW" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
-                        <Button Text="ANGLAIS FIN / BSF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
-                        <Button Text="GAZ CYLINDRIQUE / BSP" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
-                        <Button Text="GAZ CONIQUE AMERICAIN / NPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
-                        <Button Text="GAZ CONIQUE ANGLAIS / BSPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
-                        <Button Text="PAS ELECTRIQUE / PT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="METRIQUE / M" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="BtnNormeMetrique_Clicked"/>
+                        <Button Text="METRIQUE FIN / MF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" Clicked="BtnNormeMetriqueFin_Clicked"/>
+                        <Button Text="AMERICAIN / UNC" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0" Clicked="BtnNormeAmericain_Clicked"/>
+                        <Button Text="AMERICAIN FIN / UNF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0" Clicked="BtnNormeAmericainFin_Clicked"/>
+                        <Button Text="AMERICAIN EXTRA FIN / UNEF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0" Clicked="BtnNormeAmericainExtraFin_Clicked"/>
+                        <Button Text="ANGLAIS / BSW" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0" Clicked="BtnNormeAnglais_Clicked"/>
+                        <Button Text="ANGLAIS FIN / BSF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0" Clicked="BtnNormeAnglaisFin_Clicked"/>
+                        <Button Text="GAZ CYLINDRIQUE / BSP" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0" Clicked="BtnNormeGazCylindrique_Clicked"/>
+                        <Button Text="GAZ CONIQUE AMERICAIN / NPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0" Clicked="BtnNormeGazConiqueAmericain_Clicked"/>
+                        <Button Text="GAZ CONIQUE ANGLAIS / BSPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0" Clicked="BtnNormeGazConiqueAnglais_Clicked"/>
+                        <Button Text="PAS ELECTRIQUE / PT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0" Clicked="BtnNormePasElectrique_Clicked"/>
                         <Button Text="TRAPEZE / TR" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0" Clicked="BtnNormeTrapeze_Clicked"/>
 
                     </Grid>
