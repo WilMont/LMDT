@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Prototype" x:Class="Prototype.RechercheParNormePage" Title="Normes" Icon="xaml.png">
 
-    <AbsoluteLayout>
+    <Grid>
         <Grid>
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
-                   Aspect="AspectFill" />
+                   Aspect="Fill" />
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
-                   Aspect="AspectFill" 
+                   Aspect="Fill" 
                    Opacity="0.5" />
         </Grid>
 
@@ -43,5 +43,5 @@
                 </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
-    </AbsoluteLayout>
+    </Grid>
 </ContentPage>
