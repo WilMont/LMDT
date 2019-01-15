@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.Niv3.Normes.NormePasElectriquePage">
+    <ContentPage.Content>
+        <Grid>
+
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+
+            <StackLayout>
+                <Button Text="Pas Electrique / PG"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="Start"
+                VerticalOptions="Start"
+                WidthRequest="100" 
+                FontSize="Micro"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1"
+                Margin="5" />
+
+                <Button Text="Diamètre"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="150" 
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1" />
+
+                <Button Text="Pas"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="150"
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1" />
+
+                <Button Text="Foret"
+                TextColor="Black"
+                BackgroundColor="SaddleBrown"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="150"
+                FontSize="Default"
+                BorderColor="Black"
+                BorderRadius="7"
+                BorderWidth="1" />
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
