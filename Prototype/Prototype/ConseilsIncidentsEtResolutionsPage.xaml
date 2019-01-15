@@ -12,8 +12,8 @@
             <ScrollView>
             <StackLayout>
 
-                <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" Text="Durant le taraudage de votre pièce, il est possible que vous rencontriez les 5 incidents décrits ci-dessous." />
-                <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"  Text="Ils sont accompagnés de leurs causes probables." />
+                <Label FontAttributes="Bold" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium" Text="Durant le taraudage de votre pièce, il est possible que vous rencontriez les 5 incidents décrits ci-dessous." />
+                <Label FontAttributes="Bold" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"  Text="Ils sont accompagnés de leurs causes probables." />
                 <Label TextColor="Black" FontSize="Small"  Text=" " />
                     <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="1) Taraudage trop grand : " />
                         <Label TextColor="Black" FontSize="Default"  Text="- Géométrie de taraud inappropriée " />

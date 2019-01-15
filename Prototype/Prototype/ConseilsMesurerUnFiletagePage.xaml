@@ -12,8 +12,8 @@
             
             <ScrollView>
                 <StackLayout>
-                    <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large" Text="Pour mesurer un filetage, il convient de se munir d'un pied à coulisse et idéalement d'une jauge de filetage ou un peigne à filets." />
-                    <Label FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black" FontSize="Large"  Text="Un filetage se caractérise par 3 éléments :" />
+                    <Label FontAttributes="Bold" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium" Text="Pour mesurer un filetage, il convient de se munir d'un pied à coulisse et idéalement d'une jauge de filetage ou un peigne à filets." />
+                    <Label FontAttributes="Bold" HorizontalTextAlignment="Start" TextColor="Black" FontSize="Medium"  Text="Un filetage se caractérise par 3 éléments :" />
                     <Label TextColor="Black" FontSize="Small"  Text=" " />
                     <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="1/ le diamètre extérieur mesuré sur le sommet des filets." />
                     <Label FontAttributes="Bold" TextColor="Black" FontSize="Medium"  Text="2/ le pas, c'est-à-dire le nombre de filets sur une mesure donnée." />
