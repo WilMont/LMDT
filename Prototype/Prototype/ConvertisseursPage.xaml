@@ -21,7 +21,8 @@
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
-                            BorderWidth="1"/>
+                            BorderWidth="1"
+                            Clicked="MMenPouce_Clicked"/>
 
                 <Button Text="mm / gaz"
                             TextColor="Black"
@@ -32,7 +33,8 @@
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
-                            BorderWidth="1"/>
+                            BorderWidth="1"
+                            Clicked="MMenGaz_Clicked"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>
