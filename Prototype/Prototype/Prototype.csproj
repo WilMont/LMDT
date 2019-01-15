@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Normes\NormeAmericainExtraFinPage.xaml~RF52a26f2.TMP" />
+    <None Remove="Niv3\Normes\NormeAmericainExtraFinPage.xaml~RF52a26f2.TMP" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,79 +18,79 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="ConseilsIncidentsEtResolutionsPage.xaml.cs">
+    <Compile Update="Niv3\Conseils\ConseilsIncidentsEtResolutionsPage.xaml.cs">
       <DependentUpon>ConseilsIncidentsEtResolutionsPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="CustomNavigationPage.xaml.cs">
       <DependentUpon>CustomNavigationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Normes\NormeTrapezePage.xaml.cs">
+    <Compile Update="Niv3\Normes\NormeTrapezePage.xaml.cs">
       <DependentUpon>NormeTrapezePage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="ConseilsIncidentsEtResolutionsPage.xaml">
+    <EmbeddedResource Update="Niv3\Conseils\ConseilsIncidentsEtResolutionsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ConseilsMesurerUnFiletagePage.xaml">
+    <EmbeddedResource Update="Niv3\Conseils\ConseilsMesurerUnFiletagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ConseilsPage.xaml">
+    <EmbeddedResource Update="Niv2\ConseilsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ConvertisseurMMenGazPage.xaml">
+    <EmbeddedResource Update="Niv3\Convertisseurs\ConvertisseurMMenGazPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ConvertisseurMMenPoucePage.xaml">
+    <EmbeddedResource Update="Niv3\Convertisseurs\ConvertisseurMMenPoucePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ConvertisseursPage.xaml">
+    <EmbeddedResource Update="Niv2\ConvertisseursPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="CustomNavigationPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeAmericainExtraFinPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeAmericainExtraFinPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeAmericainFinPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeAmericainFinPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeAmericainPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeAmericainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeAnglaisFinPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeAnglaisFinPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeAnglaisPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeAnglaisPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeGazConiqueAmericainPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeGazConiqueAmericainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeGazConiqueAnglaisPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeGazConiqueAnglaisPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeGazCylindriquePage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeGazCylindriquePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeMetriqueFinPage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeMetriqueFinPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeMetriquePage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeMetriquePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormePasElectriquePage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormePasElectriquePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RechercheParDiametrePage.xaml">
+    <EmbeddedResource Update="Niv1\RechercheParDiametrePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RechercheParNormePage.xaml">
+    <EmbeddedResource Update="Niv1\RechercheParNormePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Normes\NormeTrapezePage.xaml">
+    <EmbeddedResource Update="Niv3\Normes\NormeTrapezePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
