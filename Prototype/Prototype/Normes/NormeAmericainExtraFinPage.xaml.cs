@@ -16,5 +16,10 @@ namespace Prototype.Normes
 		{
 			InitializeComponent ();
 		}
-	}
+
+        async void BtnNormeActuelle_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RechercheParNormePage());
+        }
+    }
 }

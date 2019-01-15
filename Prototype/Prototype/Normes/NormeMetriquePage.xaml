@@ -9,19 +9,15 @@
                    Aspect="Fill" />
 
             <StackLayout>
-                <Button Text="Metrique / M"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="Start"
-                VerticalOptions="Start"
-                WidthRequest="100" 
-                FontSize="Micro"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1"
-                Margin="5" />
+                <Frame BorderColor="Black" BackgroundColor="SaddleBrown" WidthRequest="80" HorizontalOptions="Start" VerticalOptions="Start">
+                    <Label Text="METRIQUE / M"
+                           HorizontalOptions="CenterAndExpand"
+                           TextColor="Black"
+                           FontSize="Micro"/>
+                </Frame>
+                
 
-                <Button Text="Diamètre"
+                    <Button Text="Diamètre"
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="CenterAndExpand"
