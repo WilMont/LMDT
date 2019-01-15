@@ -14,7 +14,6 @@ namespace Prototype
         public RechercheParDiametrePage()
         {
             InitializeComponent();
-            BindingContext = new ListViewViewModel();
         }
 
 
