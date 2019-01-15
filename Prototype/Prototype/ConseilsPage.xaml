@@ -27,7 +27,7 @@
                         BorderWidth="1"
                         Clicked="BtnMesurerUnFiletage_Clicked"/>
                
-                <Button Text="Incidents / Résolutions"
+                <Button Text="Incidents et Résolutions"
                         TextColor="Black"
                         BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"
