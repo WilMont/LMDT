@@ -9,6 +9,18 @@
 
             <ScrollView>
                 <StackLayout>
+                    <Grid HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                HeightRequest="25"
+                BackgroundColor="WhiteSmoke"
+                Opacity="0.75">
+                        <Label Text="Metrique / M"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="Default" />
+                    </Grid>
+
                     <Button Text="Diametre"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
