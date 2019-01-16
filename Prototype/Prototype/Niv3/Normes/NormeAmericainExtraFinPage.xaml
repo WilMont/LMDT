@@ -9,17 +9,17 @@
                    Aspect="Fill" />
 
             <StackLayout>
-                <Button Text="Americain Extra Fin / UNEF"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="Start"
+                <Grid HorizontalOptions="Fill"
                 VerticalOptions="Start"
-                WidthRequest="100" 
-                FontSize="Micro"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1"
-                Margin="5"/>
+                HeightRequest="25"
+                BackgroundColor="WhiteSmoke"
+                Opacity="0.75">
+                    <Label Text="Americain Extra Fin / UNEF"
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="Default" />
+                </Grid>
 
                 <Button Text="Diamètre"
                 TextColor="Black"
