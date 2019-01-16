@@ -9,12 +9,13 @@
                    Aspect="Fill" />
 
             <StackLayout>
-                <Frame BorderColor="Black" BackgroundColor="SaddleBrown" WidthRequest="80" HorizontalOptions="Start" VerticalOptions="Start">
+                <Grid HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="SaddleBrown">
                     <Label Text="METRIQUE FIN / MF"
-                           HorizontalOptions="CenterAndExpand"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Start"
                            TextColor="Black"
-                           FontSize="Micro"/>
-                </Frame>
+                           FontSize="Small"/>
+                </Grid>
 
                 <Button Text="Diamètre"
                 TextColor="Black"
