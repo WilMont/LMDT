@@ -81,5 +81,22 @@ namespace Prototype.Normes
                 BouttonChoixForet.IsVisible = true;
             });
         }
+
+        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        public void DiametreChoix_2(object sender, EventArgs args)
+        {
+            Device.BeginInvokeOnMainThread(() => {
+                Tab_Diametre.IsVisible = false;
+                BouttonChoixDiametre.IsVisible = true;
+                BouttonChoixPas.IsVisible = true;
+                BouttonChoixForet.IsVisible = true;
+                BouttonChoixDiametre.Text = "1";
+                BouttonChoixPas.Text = "0.25";
+                BouttonChoixForet.Text = "0.75";
+            });
+        }
     }
 }
