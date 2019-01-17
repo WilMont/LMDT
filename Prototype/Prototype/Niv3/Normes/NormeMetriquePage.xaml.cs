@@ -40,47 +40,11 @@ namespace Prototype
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        public void ButtonChoixPas(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Pas.IsVisible = true;
-                TabBtnLabelDiametre.IsVisible = false;
-                TabBtnLabelPas.IsVisible = false;
-                TabBtnLabelPerçage.IsVisible = false;
-            });
-        }
-
-        public void Retour_Pas(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Pas.IsVisible = false;
-                TabBtnLabelDiametre.IsVisible = true;
-                TabBtnLabelPas.IsVisible = true;
-                TabBtnLabelPerçage.IsVisible = true;
-            });
-        }
+       
 
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        public void ButtonChoixForet(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Foret.IsVisible = true;
-                TabBtnLabelDiametre.IsVisible = false;
-                TabBtnLabelPas.IsVisible = false;
-                TabBtnLabelPerçage.IsVisible = false;
-            });
-        }
-
-        public void Retour_Foret(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Foret.IsVisible = false;
-                TabBtnLabelDiametre.IsVisible = true;
-                TabBtnLabelPas.IsVisible = true;
-                TabBtnLabelPerçage.IsVisible = true;
-            });
-        }
+        
 
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
