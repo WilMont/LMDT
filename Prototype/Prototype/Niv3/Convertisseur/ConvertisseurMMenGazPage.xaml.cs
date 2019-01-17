@@ -25,6 +25,8 @@ namespace Prototype
                 Tab_MM.IsVisible = true;
                 BouttonChoixMM.IsVisible = false;
                 BouttonChoixGaz.IsVisible = false;
+                ImageConversion.IsVisible = false;
+                FrameImage.IsVisible = false;
             });
         }
 
@@ -34,6 +36,8 @@ namespace Prototype
                 Tab_MM.IsVisible = false;
                 BouttonChoixMM.IsVisible = true;
                 BouttonChoixGaz.IsVisible = true;
+                ImageConversion.IsVisible = true;
+                FrameImage.IsVisible = true;
             });
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -44,6 +48,8 @@ namespace Prototype
                 Tab_Gaz.IsVisible = true;
                 BouttonChoixMM.IsVisible = false;
                 BouttonChoixGaz.IsVisible = false;
+                ImageConversion.IsVisible = false;
+                FrameImage.IsVisible = false;
             });
         }
 
@@ -53,6 +59,8 @@ namespace Prototype
                 Tab_Gaz.IsVisible = false;
                 BouttonChoixMM.IsVisible = true;
                 BouttonChoixGaz.IsVisible = true;
+                ImageConversion.IsVisible = true;
+                FrameImage.IsVisible = true;
             });
         }
     }
