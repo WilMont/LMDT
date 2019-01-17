@@ -12,14 +12,15 @@ namespace Prototype.Normes
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NormeMetriqueFinPage : ContentPage
 	{
-		public NormeMetriqueFinPage ()
+        public NormeMetriqueFinPage ()
 		{
-			InitializeComponent ();
+            InitializeComponent();
 
-		}
+
+        }
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ///
+
         public void ButtonChoixDiametre(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
@@ -83,43 +84,10 @@ namespace Prototype.Normes
             });
         }
 
-        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /// /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /**
-        void Button_Click(object sender, EventArgs e)
-        {
-            Button btn = (Button)sender;
-            switch (btn.ClassId)
-            {
-                case Prototype.NormeMetriquePage.Choix_1:
-                    //button1 was clicked
-                    break;
-                case btn.Id.MyButton2:
-                    //button2 was clicked
-                    break;
-            }
-        }
-    
-        public void Choix_1(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "1";
-                BouttonChoixPas.Text = "0.25";
-                BouttonChoixForet.Text = "0.75";
-            });
-        }
-    
-    **/
-
 
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /// /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         public void DiametreChoix_2(object sender, EventArgs args)
         {
@@ -131,6 +99,8 @@ namespace Prototype.Normes
                 BouttonChoixDiametre.Text = "1";
                 BouttonChoixPas.Text = "0.25";
                 BouttonChoixForet.Text = "0.75";
+
+                PasChoix2.IsVisible = true;
             });
         }
 
@@ -144,6 +114,8 @@ namespace Prototype.Normes
                 BouttonChoixDiametre.Text = "1.1";
                 BouttonChoixPas.Text = "0.25";
                 BouttonChoixForet.Text = "0.85";
+
+                PasChoix3.IsVisible = true;
             });
         }
 
@@ -567,65 +539,6 @@ namespace Prototype.Normes
                 BouttonChoixForet.Text = "37.5";
             });
         }
-        public void DiametreChoix_39(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "45";
-                BouttonChoixPas.Text = "4.50";
-                BouttonChoixForet.Text = "40.5";
-            });
-        }
-        public void DiametreChoix_40(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "48";
-                BouttonChoixPas.Text = "5.00";
-                BouttonChoixForet.Text = "43";
-            });
-        }
-        public void DiametreChoix_41(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "52";
-                BouttonChoixPas.Text = "5.00";
-                BouttonChoixForet.Text = "47";
-            });
-        }
-        public void DiametreChoix_42(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "56";
-                BouttonChoixPas.Text = "5.50";
-                BouttonChoixForet.Text = "50.5";
-            });
-        }
-        public void DiametreChoix_43(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
-                BouttonChoixDiametre.Text = "60";
-                BouttonChoixPas.Text = "5.50";
-                BouttonChoixForet.Text = "54.5";
-            });
-        }
+
     }
 }
