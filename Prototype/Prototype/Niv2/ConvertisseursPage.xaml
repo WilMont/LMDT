@@ -12,7 +12,7 @@
             
             <StackLayout>
 
-                <Button Text="mm vers pouce"
+                <Button Text="mm/pouce"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"
@@ -24,7 +24,7 @@
                             BorderWidth="1"
                             Clicked="MMenPouce_Clicked"/>
 
-                <Button Text="mm vers gaz"
+                <Button Text="mm/gaz"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"

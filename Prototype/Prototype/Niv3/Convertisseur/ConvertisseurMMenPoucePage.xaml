@@ -9,12 +9,18 @@
 
             <ScrollView>
                 <StackLayout>
-                    
-                    <Button Text="MM vers Pouce"
+                    <Label Text="MM vers Pouce" 
+                           TextColor="WhiteSmoke"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="EndAndExpand"
+                           FontSize="Default"
+                           FontAttributes="Bold"
+                           x:Name="LabelBtn1"/>
+                    <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
+                            VerticalOptions="StartAndExpand"
                             WidthRequest="150" 
                             FontSize="Default"
                             BorderColor="Black"
@@ -97,15 +103,22 @@
                         <Button Text="101.60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="63" Grid.Column="0"/>
                     </Grid>
 
-                    <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.75" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
-                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-300x300.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
+                    <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.5" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
+                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-150x150.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
                     </Frame>
-                    
-                    <Button Text="Pouce vers MM"
+
+                    <Label Text="Pouce vers MM" 
+                           TextColor="WhiteSmoke"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="EndAndExpand"
+                           FontSize="Default"
+                           FontAttributes="Bold"
+                           x:Name="LabelBtn2"/>
+                    <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
+                            VerticalOptions="StartAndExpand"
                             WidthRequest="150" 
                             FontSize="Default"
                             BorderColor="Black"

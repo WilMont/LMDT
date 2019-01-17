@@ -26,6 +26,8 @@ namespace Prototype
                 BouttonChoixMM.IsVisible = false;
                 BouttonChoixPouces.IsVisible = false;
                 ImageConversion.IsVisible = false;
+                LabelBtn1.IsVisible = false;
+                LabelBtn2.IsVisible = false;
                 FrameImage.IsVisible = false;
             });
         }
@@ -37,6 +39,8 @@ namespace Prototype
                 BouttonChoixMM.IsVisible = true;
                 BouttonChoixPouces.IsVisible = true;
                 ImageConversion.IsVisible = true;
+                LabelBtn1.IsVisible = true;
+                LabelBtn2.IsVisible = true;
                 FrameImage.IsVisible = true;
             });
         }
@@ -49,6 +53,8 @@ namespace Prototype
                 BouttonChoixMM.IsVisible = false;
                 BouttonChoixPouces.IsVisible = false;
                 ImageConversion.IsVisible = false;
+                LabelBtn1.IsVisible = false;
+                LabelBtn2.IsVisible = false;
                 FrameImage.IsVisible = false;
             });
         }
@@ -60,6 +66,8 @@ namespace Prototype
                 BouttonChoixMM.IsVisible = true;
                 BouttonChoixPouces.IsVisible = true;
                 ImageConversion.IsVisible = true;
+                LabelBtn1.IsVisible = true;
+                LabelBtn2.IsVisible = true;
                 FrameImage.IsVisible = true;
             });
         }
