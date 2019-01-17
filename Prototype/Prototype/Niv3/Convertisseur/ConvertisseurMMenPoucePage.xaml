@@ -10,7 +10,7 @@
             <ScrollView>
                 <StackLayout>
                     
-                    <Button Text="MM → Pouce"
+                    <Button Text="MM vers Pouce"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
@@ -95,10 +95,13 @@
                         <Button Text="95.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="61" Grid.Column="0"/>
                         <Button Text="98.42" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="62" Grid.Column="0"/>
                         <Button Text="101.60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="63" Grid.Column="0"/>
-
                     </Grid>
 
-                    <Button Text="Pouce → MM"
+                    <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.75" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
+                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-300x300.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
+                    </Frame>
+                    
+                    <Button Text="Pouce vers MM"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
