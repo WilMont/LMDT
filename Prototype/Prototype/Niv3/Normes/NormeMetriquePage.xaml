@@ -8,7 +8,7 @@
                    Aspect="Fill" />
 
             <ScrollView>
-                <StackLayout>
+                <StackLayout VerticalOptions="CenterAndExpand">
                     <Grid HorizontalOptions="Fill"
                 VerticalOptions="Start"
                 HeightRequest="25"
@@ -21,19 +21,28 @@
                 FontSize="Default" />
                     </Grid>
 
-                    <Button Text="Diametre"
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
-                            HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
-                            WidthRequest="150" 
+                            FontAttributes="Bold"
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
-                            BorderWidth="1" 
+                            BorderWidth="1"
                             x:Name="BouttonChoixDiametre"
-                            Clicked="ButtonChoixDiametre"/>
-
+                            Clicked="ButtonChoixDiametre"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
+                    
                     <Grid x:Name="Tab_Diametre" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
@@ -89,18 +98,27 @@
                         <Button Text="60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43" Grid.Column="0" Clicked="Choix_43"/>
                     </Grid>
 
-                    <Button Text="Pas"
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
-                            HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
-                            WidthRequest="150" 
+                            FontAttributes="Bold"
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixPas"
-                            Clicked="ButtonChoixPas"/>
+                            Clicked="ButtonChoixPas"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
 
                     <Grid x:Name="Tab_Pas" IsVisible="False" BackgroundColor="AntiqueWhite" Opacity="0.5">
                         <Grid.RowDefinitions>
@@ -156,18 +174,27 @@
                         <Button Text="5.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43" Grid.Column="0" />
                     </Grid>
 
-                    <Button Text="Perçage"
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPerçage">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
-                            HorizontalOptions="CenterAndExpand"
-                            VerticalOptions="CenterAndExpand"
-                            WidthRequest="150" 
+                            FontAttributes="Bold"
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixForet"
-                            Clicked="ButtonChoixForet"/>
+                            Clicked="ButtonChoixForet"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
 
                     <Grid x:Name="Tab_Foret" IsVisible="False" BackgroundColor="AntiqueWhite" Opacity="0.5">
                         <Grid.RowDefinitions>
