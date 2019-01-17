@@ -9,12 +9,17 @@
                    Aspect="Fill" />
 
             <StackLayout>
-                <Frame BorderColor="Black" BackgroundColor="SaddleBrown" WidthRequest="80" HorizontalOptions="Start" VerticalOptions="Start">
+                <Grid HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                HeightRequest="25"
+                BackgroundColor="WhiteSmoke"
+                Opacity="0.75">
                     <Label Text="ANGLAIS / BSW"
-                           HorizontalOptions="CenterAndExpand"
-                           TextColor="Black"
-                           FontSize="Micro"/>
-                </Frame>
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="Default" />
+                </Grid>
 
                 <Button Text="Diamètre"
                 TextColor="Black"

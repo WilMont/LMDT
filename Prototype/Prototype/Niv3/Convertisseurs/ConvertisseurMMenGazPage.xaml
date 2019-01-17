@@ -9,7 +9,7 @@
 
             <ScrollView>
                 <StackLayout>
-                    <Button Text="Millimètres"
+                    <Button Text="MM vers Gaz"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
@@ -29,9 +29,8 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-
-                        <Label Text="Choisissez un millimètrage" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_millimètre"/>
+                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0" Clicked="Retour_millimètre"/>
+                        <Label Text="Choisissez un millimètrage" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
 
                         <Button Text="1.51" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
                         <Button Text="1.59" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
@@ -98,7 +97,11 @@
 
                     </Grid>
 
-                    <Button Text="Gaz"
+                    <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.75" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
+                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-300x300.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
+                    </Frame>
+
+                    <Button Text="Gaz vers MM"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
@@ -118,8 +121,9 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="Choisissez un Gaz" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Gaz"/>
+                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0" Clicked="Retour_Gaz"/>
+                        <Label Text="Choisissez un Gaz" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
+
                         <Button Text="1.51" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
                         <Button Text="1.59" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
                         <Button Text="1.83" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>

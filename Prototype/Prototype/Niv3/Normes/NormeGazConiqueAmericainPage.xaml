@@ -9,12 +9,16 @@
                    Aspect="Fill" />
 
             <StackLayout>
-                <Grid HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="SaddleBrown">
+                <Grid HorizontalOptions="Fill"
+                VerticalOptions="Start"
+                HeightRequest="25"
+                BackgroundColor="WhiteSmoke"
+                Opacity="0.75">
                     <Label Text="GAZ CONIQUE AMERICAIN / NPT"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Start"
-                           TextColor="Black"
-                           FontSize="Small"/>
+                TextColor="Black"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontSize="Default" />
                 </Grid>
 
                 <Button Text="Diamètre"
