@@ -8,7 +8,7 @@
                    Aspect="Fill" />
 
             <ScrollView>
-                <StackLayout VerticalOptions="CenterAndExpand">
+                <StackLayout>
                     <Grid HorizontalOptions="Fill"
                 VerticalOptions="Start"
                 HeightRequest="25"
@@ -21,7 +21,7 @@
                 FontSize="Default" />
                     </Grid>
 
-                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre">
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre" Margin="-10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
@@ -29,7 +29,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
@@ -98,7 +98,7 @@
                         <Button Text="60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43" Grid.Column="0" Clicked="Choix_43"/>
                     </Grid>
 
-                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas">
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas" Margin="-10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
@@ -106,17 +106,16 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
-                            BackgroundColor="SaddleBrown"
+                            BackgroundColor="Gray"
                             FontAttributes="Bold"
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixPas"
-                            Clicked="ButtonChoixPas"
                             Grid.Row="1" Grid.Column="0"/>
                     </Grid>
 
@@ -128,7 +127,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
                         <Label Text="Choisissez un Pas de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Pas"/>
+                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
 
                         <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" />
                         <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0" />
@@ -182,17 +181,16 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Default" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
-                            BackgroundColor="SaddleBrown"
+                            BackgroundColor="Gray"
                             FontAttributes="Bold"
                             FontSize="Default"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixForet"
-                            Clicked="ButtonChoixForet"
                             Grid.Row="1" Grid.Column="0"/>
                     </Grid>
 
@@ -204,7 +202,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
                         <Label Text="Choisissez un Perçage de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Foret"/>
+                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
 
                         <Button Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
                         <Button Text="0.85" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
@@ -249,7 +247,6 @@
                         <Button Text="50.5" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="42" Grid.Column="0"/>
                         <Button Text="54.5" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43" Grid.Column="0"/>
                     </Grid>
-
                 </StackLayout>
             </ScrollView>
         </Grid>

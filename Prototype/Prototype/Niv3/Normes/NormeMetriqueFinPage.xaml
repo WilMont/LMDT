@@ -4,57 +4,57 @@
              x:Class="Prototype.Niv3.Normes.NormeMetriqueFinPage">
     <ContentPage.Content>
         <Grid>
-
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
+            <ScrollView>
+                <StackLayout>
+                    <Grid HorizontalOptions="Fill"
+                    VerticalOptions="Start"
+                    HeightRequest="25"
+                    BackgroundColor="WhiteSmoke"
+                    Opacity="0.75">
+                        <Label Text="Metrique Fin / MF"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    FontSize="Default" />
+                    </Grid>
 
-            <StackLayout>
-                <Grid HorizontalOptions="Fill"
-                VerticalOptions="Start"
-                HeightRequest="25"
-                BackgroundColor="WhiteSmoke"
-                Opacity="0.75">
-                    <Label Text="Metrique Fin / MF"
-                TextColor="Black"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                FontSize="Default" />
-                </Grid>
+                    <Button Text="Diamètre"
+                    TextColor="Black"
+                    BackgroundColor="SaddleBrown"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150" 
+                    FontSize="Default"
+                    BorderColor="Black"
+                    BorderRadius="7"
+                    BorderWidth="1" />
 
-                <Button Text="Diamètre"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150" 
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Button Text="Pas"
+                    TextColor="Black"
+                    BackgroundColor="SaddleBrown"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150"
+                    FontSize="Default"
+                    BorderColor="Black"
+                    BorderRadius="7"
+                    BorderWidth="1" />
 
-                <Button Text="Pas"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Button Text="Foret"
+                    TextColor="Black"
+                    BackgroundColor="SaddleBrown"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="150"
+                    FontSize="Default"
+                    BorderColor="Black"
+                    BorderRadius="7"
+                    BorderWidth="1" />
 
-                <Button Text="Foret"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
-
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
