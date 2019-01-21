@@ -4,57 +4,175 @@
              x:Class="Prototype.Niv3.Normes.NormeAnglaisPage">
     <ContentPage.Content>
         <Grid>
-
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
 
-            <StackLayout>
-                <Grid HorizontalOptions="Fill"
+            <ScrollView>
+                <StackLayout>
+                    <Grid HorizontalOptions="Fill"
                 VerticalOptions="Start"
                 HeightRequest="25"
                 BackgroundColor="WhiteSmoke"
                 Opacity="0.75">
-                    <Label Text="Anglais / BSW"
+                        <Label Text="Anglais / BSW"
                 TextColor="Black"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 FontSize="Default" />
-                </Grid>
+                    </Grid>
 
-                <Button Text="Diamètre"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150" 
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre" Margin="-10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-                <Button Text="Pas"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BouttonChoixDiametre"
+                            Clicked="ButtonChoixDiametre"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
 
-                <Button Text="Foret"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Grid x:Name="Tab_Diametre" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-            </StackLayout>
+                        <Label Text="Choisissez un diamètre de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Diametre"/>
+
+                        <Button Text="1/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="1/16    60  1.15 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="3/32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="3/32    48  1.85 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="1/8     40  2.55 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="5/32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="5/32    32  3.2  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="3/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="3/16    24  3.7  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="7/32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="7/32    24  4.5  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="1/4     20  5.1  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="5/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="5/16    18  6.5  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="3/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="3/8     16  7.9  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="7/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="7/16    14  9.25 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="1/2     12  10.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="12" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="9/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
+                        <Button Text="9/16    12  12   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="5/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
+                        <Button Text="5/8     11  13.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="14" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
+                        <Button Text="3/4     10  16.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="7/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
+                        <Button Text="7/8     9   19.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="16" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17" Grid.Column="0"/>
+                        <Button Text="1''     8   22   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="17" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 1/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18" Grid.Column="0"/>
+                        <Button Text="1'' 1/8 7   24.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="18" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19" Grid.Column="0"/>
+                        <Button Text="1'' 1/4 7   27.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="19" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 3/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20" Grid.Column="0"/>
+                        <Button Text="1'' 3/8 6   30.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="20" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21" Grid.Column="0"/>
+                        <Button Text="1'' 1/2 6   33.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="21" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 5/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22" Grid.Column="0"/>
+                        <Button Text="1'' 5/8 5   35.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="22" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23" Grid.Column="0"/>
+                        <Button Text="1'' 3/4 5   39   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="23" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="1'' 7/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24" Grid.Column="0"/>
+                        <Button Text="1'' 7/8 4.5 41.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24" Grid.Column="0" Clicked="Button_Click"/>
+
+                        <Button Text="2''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="25" Grid.Column="0"/>
+                        <Button Text="2'' 4.5 44.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="25" Grid.Column="0" Clicked="Button_Click"/>
+                    </Grid>
+
+
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas" Margin="-10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="Gray"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BouttonChoixPas"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
+
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPerçage">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="Gray"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BouttonChoixForet"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
+
+
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
