@@ -15,7 +15,8 @@ namespace Prototype
 		public NormeMetriquePage ()
 		{
 			InitializeComponent ();
-		}
+
+        }
 
         /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ///
@@ -49,28 +50,34 @@ namespace Prototype
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         /// /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        /**
-        void Button_Click(object sender, EventArgs e)
+        
+
+        void Button_Click(object sender, EventArgs args)
         {
             Button btn = (Button)sender;
-            switch (btn.ClassId)
-            {
-                case Prototype.NormeMetriquePage.Choix_1:
-                    //button1 was clicked
-                    break;
-                case btn.Id.MyButton2:
-                    //button2 was clicked
-                    break;
-            }
+
+           var textDiametre = btn.Text.Substring(0, 4);
+           var textPas = btn.Text.Substring(4, 4);
+           var textForet = btn.Text.Substring(9, 4);
+
+            Device.BeginInvokeOnMainThread(() => {
+                Tab_Diametre.IsVisible = false;
+                TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPerçage.IsVisible = true;
+                BouttonChoixDiametre.Text = textDiametre;
+                BouttonChoixPas.Text = textPas;
+                BouttonChoixForet.Text = textForet;
+            });
         }
     
         public void Choix_1(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixForet.IsVisible = true;
+                TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPerçage.IsVisible = true;
                 BouttonChoixDiametre.Text = "1";
                 BouttonChoixPas.Text = "0.25";
                 BouttonChoixForet.Text = "0.75";
@@ -78,7 +85,7 @@ namespace Prototype
         }
 
     
-    **/
+
 
 
         /// //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
