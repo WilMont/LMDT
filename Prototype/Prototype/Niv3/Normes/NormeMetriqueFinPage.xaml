@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Prototype.NormeMetriquePage">
+             x:Class="Prototype.NormeMetriqueFinPage">
     <ContentPage.Content>
         <Grid>
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
@@ -14,7 +14,7 @@
                 HeightRequest="25"
                 BackgroundColor="WhiteSmoke"
                 Opacity="0.75">
-                        <Label Text="Metrique / M"
+                        <Label Text="Metrique Fin / MF"
                 TextColor="Black"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -54,54 +54,53 @@
                         <Label Text="Choisissez un diamètre de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Diametre"/>
 
-                        <Button Text="3" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="2"/>
-                        <Button Text="3 0.35 2.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="3" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="D3 P0.35 F2.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="3"/>
-                        <Button Text="4 0.35 3.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="D4 P0.35 F3.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="4"/>
-                        <Button Text="4 0.50 3.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="D4 0.50 3.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="0"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="5" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="5"/>
-                        <Button Text="5 0.50 4.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="5" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="D5 P0.50 F4.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="0"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="5 0.75 4.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="D5 P0.75 F4.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="0"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="6" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="6"/>
-                        <Button Text="6 0.50 5.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="6" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="D6 P0.50 F5.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="6 0.75 5.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="D6 P0.75 F5.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="7" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="7"/>
-                        <Button Text="7 0.75 6.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9"   Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="7" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="D7 P0.75 F6.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9"   Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="8"/>
-                        <Button Text="8 0.5  7.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="D8 P0.5  F7.5"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="8 0.75 7.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="8 1.00 7"      TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="12"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="9" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="9"/>
-                        <Button Text="9 0.75 8.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="9" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="D9 P0.75 F8.25"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="9 1.00 8"      TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="14"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="10" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="10"/>
-                        <Button Text="10 0.75 9.25"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="10" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="D10 P0.75 F9.25"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="10 1.00 9"     TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="16"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="10 1.25 8.75"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="17"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="11" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="11"/>
-                        <Button Text="11 1.00 10"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="18"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="11" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="D11 P1.00 F10"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="18"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="11 1.25 9.75"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="19"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="12" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="12"/>
-                        <Button Text="12 0.75 11.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="20"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="12" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="D12 P0.75 F11.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="20"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="12 1.00 11"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="21"  Grid.Column="0" Clicked="Button_Click"/>
 
@@ -109,13 +108,13 @@
 
                         <Button Text="12 1.50 10.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="23"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="13" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="13"/>
-                        <Button Text="13 1.00 12"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="13" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="D13 P1.00 F12"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="13 1.50 11.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="25"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="14" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="14"/>
-                        <Button Text="14 0.75 13.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="26"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="14" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
+                        <Button Text="D14 P0.75 F13.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="26"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="14 1.00 13"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="27"  Grid.Column="0" Clicked="Button_Click"/>
 
@@ -123,20 +122,20 @@
 
                         <Button Text="14 1.50 12.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="29"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="15" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="15"/>
-                        <Button Text="15 1.00 14"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="30"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="15" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
+                        <Button Text="D15 P1.00 F14"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="30"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="15 1.50 13.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="31"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="16"/>
-                        <Button Text="16 1.00 15"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="32"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
+                        <Button Text="D16 P1.00 F15"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="32"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="16 1.25 14.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="33"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="16 1.50 14.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="34"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="18" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="17"/>
-                        <Button Text="18 1.00 17"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="35"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="18" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
+                        <Button Text="D18 P1.00 F17"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="35"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="18 1.25 16.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="36"  Grid.Column="0" Clicked="Button_Click"/>
 
@@ -144,8 +143,8 @@
 
                         <Button Text="18 2.00 16"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="38"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="20" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="18"/>
-                        <Button Text="20 1.25 19"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="39"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="20" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17" Grid.Column="0"/>
+                        <Button Text="D20 P1.25 F19"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="39"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="20 1.25 18.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="40"  Grid.Column="0" Clicked="Button_Click"/>
 
@@ -153,11 +152,11 @@
 
                         <Button Text="20 2.00 18"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="42"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="21" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="19"/>
-                        <Button Text="21 1.50 19.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="43"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="21" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18" Grid.Column="0"/>
+                        <Button Text="D21 P1.50 F19.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="43"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="22" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="20"/>
-                        <Button Text="22 1.00 21"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="44"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="22" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19" Grid.Column="0"/>
+                        <Button Text="D22 P1.00 F21"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="44"  Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="22 1.25 20.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="45"  Grid.Column="0" Clicked="Button_Click"/>
 
@@ -165,50 +164,49 @@
 
                         <Button Text="22 2.00 20"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="47"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="23" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="21"/>
-                        <Button Text="23 1.50 21.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="48"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="23" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20" Grid.Column="0"/>
+                        <Button Text="D23 P1.50 F21.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="48"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="24" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="22"/>
-                        <Button Text="24 1.00 23"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="49"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="24" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21" Grid.Column="0"/>
+                        <Button Text="D24 P1.00 F23"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="49"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="24" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="23"/>
-                        <Button Text="24 1.25 22.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="50"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="D24 P1.25 F22.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="50"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="24 1.50 22.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="51"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="24 2.00 22"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="52"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="24"/>
-                        <Button Text="25 1.00 24"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="53"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22" Grid.Column="0"/>
+                        <Button Text="D25 P1.00 F24"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="53"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="25 1.50 23.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="54"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="26" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="25"/>
-                        <Button Text="26 1.00 25"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="55"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="26" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23" Grid.Column="0"/>
+                        <Button Text="D26 P1.00 F25"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="55"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="26 1.50 24.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="56"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="26 2.00 24"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="57"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="27" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="26"/>
-                        <Button Text="27 1.00 26"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="58"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="27" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24" Grid.Column="0"/> <!-- 26 -->
+                        <Button Text="D27 P1.00 F26"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="58"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="27 1.50 25.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="59"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="27 2.00 25"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="60"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="28" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="27"/>
-                        <Button Text="28 1.00 27"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="61"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="28" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="25" Grid.Column="0"/>
+                        <Button Text="D28 P1.00 F27"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="61"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="28 1.50 26.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="62"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="28 2.00 26"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="63"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="29" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="29 1.50 27.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="64"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="29" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="26" Grid.Column="0"/>
+                        <Button Text="D29 P1.50 F27.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="64"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="30" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="28"/>
-                        <Button Text="30 1.00 29"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="65"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="30" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="27" Grid.Column="0"/>
+                        <Button Text="D30 P1.00 F29"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="65"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="30 1.50 28.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="66"  Grid.Column="0" Clicked="Button_Click"/>
                         
@@ -218,80 +216,80 @@
                         
                         <Button Text="30 3.00 27"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="69"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="29"/>
-                        <Button Text="32 1.50 30.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="70"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="28" Grid.Column="0"/>
+                        <Button Text="D32 P1.50 F30.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="70"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="32 3.00 29"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="71"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="33" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="30"/>
-                        <Button Text="33 1.50 31.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="72"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="33" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="29" Grid.Column="0"/>
+                        <Button Text="D33 P1.50 F31.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="72"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="33 2.00 31"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="73"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="33 3.00 30"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="74"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="34" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="31"/>
-                        <Button Text="34 1.50 32.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="75"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="34" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="30" Grid.Column="0"/>
+                        <Button Text="D34 P1.50 F32.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="75"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="34 2.00 32"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="76"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="32"/>
-                        <Button Text="35 1.50 33.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="77"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="31" Grid.Column="0"/>
+                        <Button Text="D35 P1.50 F33.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="77"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="36" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="33"/>
-                        <Button Text="36 1.50 34.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="78"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="36" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="32" Grid.Column="0"/>
+                        <Button Text="D36 P1.50 F34.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="78"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="36 2.00 34"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="79"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="36 3.00 33"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="80"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="38" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="34"/>
-                        <Button Text="38 1.50 36.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="81"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="38" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="33" Grid.Column="0"/>
+                        <Button Text="D38 P1.50 F36.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="81"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="39" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="35"/>
-                        <Button Text="39 1.50 37.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="82"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="39" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="34" Grid.Column="0"/>
+                        <Button Text="D39 P1.50 F37.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="82"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="39 2.00 37"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="83"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="39 3.00 36"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="84"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="40" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="36"/>
-                        <Button Text="40 1.50 38.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="85"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="40" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="35" Grid.Column="0"/>
+                        <Button Text="D40 P1.50 F38.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="85"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="40 2.00 38"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="86"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="40 3.00 37"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="87"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="42" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="37"/>
-                        <Button Text="42 1.50 40.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="88"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="42" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="36" Grid.Column="0"/>
+                        <Button Text="D42 P1.50 F40.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="88"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="42 2.00 40"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="89"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="42 3.00 39"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="90"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="45" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="38"/>
-                        <Button Text="45 1.50 43.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="91"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="45" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="37" Grid.Column="0"/>
+                        <Button Text="D45 P1.50 F43.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="91"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="45 2.00 43"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="92"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="45 3.00 42"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="93"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="48" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="39"/>
-                        <Button Text="48 1.50 46.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="94"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="48" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="38" Grid.Column="0"/>
+                        <Button Text="D48 P1.50 F46.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="94"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="48 2.00 46"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="95"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="48 3.00 45"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="96"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="40"/>
-                        <Button Text="50 1.50 48.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="97"  Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="39" Grid.Column="0"/>
+                        <Button Text="D50 P1.50 F48.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="97"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="50 2.00 48"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="98"  Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="50 3.00 47"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="99"  Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="52" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="41"/>
-                        <Button Text="52 1.50 50.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="100" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="52" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="40" Grid.Column="0"/>
+                        <Button Text="D52 P1.50 F50.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="100" Grid.Column="0" Clicked="Button_Click"/>
                         
                         <Button Text="52 2.00 50"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="101" Grid.Column="0" Clicked="Button_Click"/>
                         
@@ -316,6 +314,7 @@
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixPas"
+                            Clicked="ButtonChoixPas_Clicked"
                             Grid.Row="1" Grid.Column="0"/>
                     </Grid>
 
@@ -326,51 +325,110 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="Choisissez un Pas de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
-                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
+                        <Label Text="Choisissez un pas de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Pas"/>
 
-                        <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" ClassId="Choix2" x:Name="BtnChoixPas2"/>
-                        <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0" />
-                        <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0" />
-                        <Button Text="0.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0" />
-                        <Button Text="0.35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0" />
-                        <Button Text="0.35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0" />
-                        <Button Text="0.35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0" />
-                        <Button Text="0.40" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0" />
-                        <Button Text="0.45" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0" />
-                        <Button Text="0.40" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0" />
-                        <Button Text="0.45" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0" />
-                        <Button Text="0.45" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0" />
-                        <Button Text="0.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0" />
-                        <Button Text="0.60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0" />
-                        <Button Text="0.70" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0" />
-                        <Button Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17" Grid.Column="0" />
-                        <Button Text="0.80" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18" Grid.Column="0" />
-                        <Button Text="0.90" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19" Grid.Column="0" />
-                        <Button Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20" Grid.Column="0" />
-                        <Button Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21" Grid.Column="0" />
-                        <Button Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22" Grid.Column="0" />
-                        <Button Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23" Grid.Column="0" />
-                        <Button Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24" Grid.Column="0" />
-                        <Button Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="25" Grid.Column="0" />
-                        <Button Text="1.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="26" Grid.Column="0" />
-                        <Button Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="27" Grid.Column="0" />
-                        <Button Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="28" Grid.Column="0" />
-                        <Button Text="2.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="29" Grid.Column="0" />
-                        <Button Text="2.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="30" Grid.Column="0" />
-                        <Button Text="2.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="31" Grid.Column="0" />
-                        <Button Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="32" Grid.Column="0" />
-                        <Button Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="33" Grid.Column="0" />
-                        <Button Text="3.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="34" Grid.Column="0" />
-                        <Button Text="3.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="35" Grid.Column="0" />
-                        <Button Text="4.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="36" Grid.Column="0" />
-                        <Button Text="4.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="37" Grid.Column="0" />
-                        <Button Text="4.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="38" Grid.Column="0" />
-                        <Button Text="4.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="39" Grid.Column="0" />
-                        <Button Text="5.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="40" Grid.Column="0" />
-                        <Button Text="5.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="41" Grid.Column="0" />
-                        <Button Text="5.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="42" Grid.Column="0" />
-                        <Button Text="5.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43" Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas2"   IsVisible="False" Text="0.35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas3"   IsVisible="False" Text="0.35" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas4"   IsVisible="False" Text="0.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas5"   IsVisible="False" Text="0.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas6"   IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas7"   IsVisible="False" Text="0.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas8"   IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas9"   IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9"   Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas10"  IsVisible="False" Text="0.5"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas11"  IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas12"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas13"  IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas14"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas15"  IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas16"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas17"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas18"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas19"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas20"  IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas21"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas22"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas23"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas24"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas25"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="25"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas26"  IsVisible="False" Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="26"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas27"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="27"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas28"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="28"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas29"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="29"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas30"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="30"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas31"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="31"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas32"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="32"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas33"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="33"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas34"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="34"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas35"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="35"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas36"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="36"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas37"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="37"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas38"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="38"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas39"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="39"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas40"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="40"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas41"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="41"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas42"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="42"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas43"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="43"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas44"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="44"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas45"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="45"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas46"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="46"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas47"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="47"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas48"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="48"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas49"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="49"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas50"  IsVisible="False" Text="1.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="50"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas51"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="51"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas52"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="52"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas53"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="53"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas54"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="54"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas55"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="55"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas56"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="56"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas57"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="57"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas58"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="58"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas59"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="59"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas60"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="60"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas61"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="61"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas62"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="62"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas63"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="63"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas64"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="64"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas65"  IsVisible="False" Text="1.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="65"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas66"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="66"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas67"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="67"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas68"  IsVisible="False" Text="2.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="68"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas69"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="69"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas70"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="70"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas71"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="71"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas72"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="72"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas73"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="73"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas74"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="74"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas75"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="75"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas76"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="76"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas77"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="77"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas78"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="78"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas79"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="79"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas80"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="80"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas81"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="81"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas82"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="82"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas83"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="83"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas84"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="84"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas85"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="85"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas86"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="86"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas87"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="87"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas88"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="88"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas89"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="89"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas90"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="90"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas91"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="91"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas92"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="92"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas93"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="93"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas94"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="94"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas95"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="95"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas96"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="96"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas97"  IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="97"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas98"  IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="98"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas99"  IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="99"  Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas100" IsVisible="False" Text="1.50" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="100" Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas101" IsVisible="False" Text="2.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="101" Grid.Column="0" />
+                        <Button x:Name="BouttonChoixPas102" IsVisible="False" Text="3.00" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="102" Grid.Column="0" />
                     </Grid>
 
                     <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPerçage">
@@ -404,7 +462,7 @@
                         <Label Text="Choisissez un Perçage de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
 
-                        <Button Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" x:Name="btnchoixPas2"/>
+                        <Button Text="0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
                         <Button Text="0.85" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
                         <Button Text="0.95" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
                         <Button Text="1.15" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>

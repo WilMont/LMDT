@@ -10,11 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace Prototype
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class tempo : ContentPage
+	public partial class Temp : ContentPage
 	{
-		public tempo ()
+		public Temp ()
 		{
 			InitializeComponent ();
 		}
+
 	}
 }
