@@ -18,7 +18,7 @@
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="StartAndExpand" 
                FontSize="Medium"
-               HeightRequest="60"/>
+               HeightRequest="30"/>
 
             <Label Text="Recherche par"
                TextColor="WhiteSmoke"
@@ -26,7 +26,7 @@
                VerticalOptions="End" 
                FontSize="Medium"/>
 
-            <Grid HeightRequest="70">
+            <Grid >
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
@@ -39,7 +39,8 @@
                 BackgroundColor="SaddleBrown"
                 TextColor="Black"
                 HorizontalOptions="CenterAndExpand"
-                WidthRequest="120"
+                VerticalOptions="Center"
+                WidthRequest="125"
                 FontAttributes="Bold"
                 FontSize="Medium"
                 BorderColor="Chocolate"
@@ -51,8 +52,9 @@
                 <Button Text="Diametres"
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                WidthRequest="120" 
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="125" 
                 FontAttributes="Bold"
                 FontSize="Medium"
                 BorderColor="Chocolate"
@@ -80,7 +82,7 @@
                 TextColor="Black"
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
+                VerticalOptions="StartAndExpand"
                 WidthRequest="180"
                 FontAttributes="Bold"
                 FontSize="Medium"
@@ -89,27 +91,31 @@
                 BorderWidth="1"
                 Clicked="BtnConseils_Clicked"/>
 
-            <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Button BackgroundColor="SaddleBrown"
-                       HorizontalOptions="CenterAndExpand" 
-                        WidthRequest="70" 
-                        VerticalOptions="CenterAndExpand" 
-                        HeightRequest="80"
-                        CornerRadius="30"/>
-                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/RedirectionSite-300x300.png"/>
-                <Button BackgroundColor="Transparent"
+            <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="End">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/logo-lmdt-450x229.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Grid.Row="0" Grid.Column="0"/>
+                <Button Text="LMDT.com"
+                        TextColor="Black"
+                        BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand" 
-                        WidthRequest="70" 
                         VerticalOptions="CenterAndExpand" 
-                        HeightRequest="80" 
-                        Opacity="0.5" 
-                        BorderColor="Chocolate" 
+                        WidthRequest="110"
+                        HeightRequest="35"
+                        FontAttributes="Bold"
+                        FontSize="Small"
+                        BorderColor="Chocolate"
                         BorderWidth="1" 
-                        BorderRadius="30"
                         x:Name="Logo_LMDT"
+                        Grid.Row="1" Grid.Column="0"
                         Clicked="RedirectionSiteWeb" />
             </Grid>
-
+            
         </StackLayout>
     </Grid>
 

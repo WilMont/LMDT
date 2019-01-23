@@ -22,7 +22,7 @@
                         VerticalOptions="CenterAndExpand"
                         WidthRequest="150"
                         FontSize="Default"
-                        BorderColor="Black"
+                        BorderColor="Chocolate"
                         BorderRadius="7"
                         BorderWidth="1"
                         Clicked="BtnMesurerUnFiletage_Clicked"/>
@@ -34,7 +34,7 @@
                         VerticalOptions="CenterAndExpand"
                         WidthRequest="150"
                         FontSize="Default"
-                        BorderColor="Black"
+                        BorderColor="Chocolate"
                         BorderRadius="7"
                         BorderWidth="1"
                         Clicked="IncidentsEtResolutions_Clicked"/>
