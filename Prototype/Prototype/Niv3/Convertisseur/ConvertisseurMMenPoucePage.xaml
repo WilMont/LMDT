@@ -384,7 +384,7 @@
                         <Button Text="3'' 7/8   98.42 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="52" Grid.Column="0" Clicked="Button_Click_Pouces"/>
 
                         <Button Text="4''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="53" Grid.Column="0"/>
-                        <Button Text="4''       101.60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill"  Grid.Row="53" Grid.Column="0" Clicked="Button_Click_Pouces"/>
+                        <Button Text="4''       101.60" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="53" Grid.Column="0" Clicked="Button_Click_Pouces"/>
                     </Grid>
                     
 

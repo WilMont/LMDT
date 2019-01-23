@@ -71,5 +71,49 @@ namespace Prototype
                 FrameImage.IsVisible = true;
             });
         }
+
+        void Button_Click_MM(object sender, EventArgs args)
+        {
+            Button btn = (Button)sender;
+
+            var text_MM = btn.Text.Substring(0, 6);
+            var text_Gaz = btn.Text.Substring(7, 9);
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Tab_MM.IsVisible = false;
+                LabelBtn1.IsVisible = true;
+                BouttonChoixMM.IsVisible = true;
+                LabelBtn2.IsVisible = true;
+                BouttonChoixGaz.IsVisible = true;
+                ImageConversion.IsVisible = true;
+                FrameImage.IsVisible = true;
+
+                BouttonChoixMM.Text = text_MM;
+                BouttonChoixGaz.Text = text_Gaz;
+            });
+        }
+
+        void Button_Click_Gaz(object sender, EventArgs args)
+        {
+            Button btn = (Button)sender;
+
+            var text_MM = btn.Text.Substring(10, 6);
+            var text_Gaz = btn.Text.Substring(0, 7);
+
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Tab_Gaz.IsVisible = false;
+                LabelBtn1.IsVisible = true;
+                BouttonChoixMM.IsVisible = true;
+                LabelBtn2.IsVisible = true;
+                BouttonChoixGaz.IsVisible = true;
+                ImageConversion.IsVisible = true;
+                FrameImage.IsVisible = true;
+
+                BouttonChoixMM.Text = text_MM;
+                BouttonChoixGaz.Text = text_Gaz;
+            });
+        }
     }
 }

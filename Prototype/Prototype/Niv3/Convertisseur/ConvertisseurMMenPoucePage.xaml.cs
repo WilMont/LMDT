@@ -80,7 +80,9 @@ namespace Prototype
                 FrameImage.IsVisible = true;
             });
         }
-
+     
+        /// ////////////////////////////////////////////////////////////////////////////////////////////////
+      
         void Button_Click_MM(object sender, EventArgs args)
         {
             Button btn = (Button)sender;
