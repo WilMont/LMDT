@@ -41,6 +41,7 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="Center"
                 WidthRequest="125"
+                HeightRequest="40"
                 FontAttributes="Bold"
                 FontSize="Medium"
                 BorderColor="Chocolate"
@@ -54,7 +55,8 @@
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
-                WidthRequest="125" 
+                WidthRequest="125"
+                HeightRequest="40"
                 FontAttributes="Bold"
                 FontSize="Medium"
                 BorderColor="Chocolate"
@@ -99,21 +101,27 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
 
-                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/logo-lmdt-450x229.png" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Grid.Row="0" Grid.Column="0"/>
-                <Button Text="LMDT.com"
+                <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/LogoLMDT_icon-300x140.png" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="End" 
+                       HeightRequest="40" 
+                       Grid.Row="0" Grid.Column="0"/>
+
+                <Button Text="La maison du taraud.com"
                         TextColor="Black"
-                        BackgroundColor="SaddleBrown"
-                        HorizontalOptions="CenterAndExpand" 
-                        VerticalOptions="CenterAndExpand" 
-                        WidthRequest="110"
-                        HeightRequest="35"
+                        BackgroundColor="SaddleBrown" 
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="Start"
+                        WidthRequest="120"
+                        HeightRequest="30"
                         FontAttributes="Bold"
-                        FontSize="Small"
+                        FontSize="7"
                         BorderColor="Chocolate"
                         BorderWidth="1" 
                         x:Name="Logo_LMDT"
                         Grid.Row="1" Grid.Column="0"
                         Clicked="RedirectionSiteWeb" />
+                
             </Grid>
             
         </StackLayout>
