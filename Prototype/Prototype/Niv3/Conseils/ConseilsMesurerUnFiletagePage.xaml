@@ -30,10 +30,8 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_1" Grid.Row="0" Grid.Column="0"/>
-                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_2" Grid.Row="1" Grid.Column="0"/>
-                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_3" Grid.Row="2" Grid.Column="0"/>
-                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" x:Name="Label_4" Grid.Row="3" Grid.Column="0"/>
+                            <Label Text="Pour un taraud, prendre le diamètre mesuré sur le sommet extérieur des filets." TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="Pour une filière, ou une dimension en creux, prendre le diamètre mesuré sur le sommet intérieur des filets." TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
                         </Grid>
 
                     <Label Text=" "/>
@@ -54,11 +52,11 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-
-                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm"  TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_5" Grid.Row="0" Grid.Column="0"/>
-                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_6" Grid.Row="1" Grid.Column="0"/>
-                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_7" Grid.Row="2" Grid.Column="0"/>
-                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" x:Name="Label_8" Grid.Row="3" Grid.Column="0"/>
+                            <Label Text="Le pas est le nombre de filets sur une mesure donnée."  TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm"  TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" Grid.Row="4" Grid.Column="0"/>
                         </Grid>
 
                     <Label Text=" "/>
@@ -79,11 +77,10 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                            
-                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm"  TextColor="Black" FontSize="Default" x:Name="Label_9" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" x:Name="Label_10" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
-                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" x:Name="Label_11" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
-                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" TextColor="Black" x:Name="Label_12" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+
+                            <Label Text="L'angle le plus courant des filets est de 60° pour les dimensions Métrique (M), Métrique Fin (MF), UNC, UNF, UNEF et NPT"  TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="L'angle des filets est de 55° pour les dimensions Gaz Cylindrique (BSP), BSPT, BSW, BSF." TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="L'angle des filets est de 80° pour les dimensions Electrique (PG)." TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
                          </Grid>
 
                 </StackLayout>
