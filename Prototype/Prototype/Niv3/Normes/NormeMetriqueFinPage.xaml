@@ -14,7 +14,7 @@
                 HeightRequest="25"
                 BackgroundColor="WhiteSmoke"
                 Opacity="0.75">
-                        <Label Text="Metrique Fin / MF"
+                        <Label Text="METRIQUE FIN / MF"
                 TextColor="Black"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -57,7 +57,7 @@
              <!-- 3 --> <Button Text="3" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
                         <Button Text="D3 P0.35 F2.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
-             <!-- 4 --> <Button Text="4.0" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+             <!-- 4 --> <Button Text="4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
                         <Button Text="D4 P0.35 F3.65"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
                         

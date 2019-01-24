@@ -21,7 +21,8 @@ namespace Prototype.Normes
         ///\\\  ///FONCTIONS POUR LE DIAMETRE\\\  ////
         ////\\\///////////////////////////////\\\/////
 
-        public void ButtonChoixDiametre(object sender, EventArgs args)
+        //ButtonDiametre_Clicked(): Affiche la liste des diamètres disponibles quand on clique sur le bouton "Diamètre".
+        public void BoutonDiametre_Clicked(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = true;
@@ -31,7 +32,9 @@ namespace Prototype.Normes
             });
         }
 
-        public void Retour_Diametre(object sender, EventArgs args)
+        // RetourDiametre_Clicked(): Désaffiche la liste des diamètres pour réapparaître sur le menu avec les trois boutons (Diamètre, Pas et Perçage)
+        // lorsque l'on clique sur le bouton retour.
+        public void RetourDiametre_Clicked(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = false;
@@ -40,10 +43,10 @@ namespace Prototype.Normes
                 TabBtnLabelPerçage.IsVisible = true;
             });
         }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-        void ButtonChoixDiametre_Clicked(object sender, EventArgs args)
+        // BoutonChoixDiametre_Clicked(): Ferme la liste de diamètres et affiche le diamètre, le pas et le perçage correspondant
+        // quand l'utilisateur choisi (a cliqué sur) son diamètre.
+        public void BoutonChoixDiametre_Clicked(object sender, EventArgs args)
         {
             Button btn = (Button)sender;
             var texteBouton = btn.Text;
@@ -66,19 +69,19 @@ namespace Prototype.Normes
                 TabBtnLabelDiametre.IsVisible = true;
                 TabBtnLabelPas.IsVisible = true;
                 TabBtnLabelPerçage.IsVisible = true;
-                BoutonChoixDiametre.Text = texteDiametre;
-                BoutonChoixPas.BackgroundColor = Color.SaddleBrown;
-                BoutonChoixForet.BackgroundColor = Color.Gray;
+                BoutonDiametre.Text = texteDiametre;
+                BoutonPas.BackgroundColor = Color.SaddleBrown;
+                BoutonForet.BackgroundColor = Color.Gray;
 
-                    if (BoutonChoixDiametre.Text == texteDiametre && BoutonChoixDiametre.Text != "1''") {
-                    BoutonChoixPas.Text = textePas;
-                    BoutonChoixForet.Text = texteForet;
-                    BoutonChoixForet.BackgroundColor = Color.SaddleBrown;
-                    BoutonChoixPas.BackgroundColor = Color.SaddleBrown;
+                    if (BoutonDiametre.Text == texteDiametre && BoutonDiametre.Text != "1''") {
+                    BoutonPas.Text = textePas;
+                    BoutonForet.Text = texteForet;
+                    BoutonForet.BackgroundColor = Color.SaddleBrown;
+                    BoutonPas.BackgroundColor = Color.SaddleBrown;
                 } else
                 {
-                    BoutonChoixPas.Text = "Choisir";
-                    BoutonChoixForet.Text = "Choisir";
+                    BoutonPas.Text = "Choisir";
+                    BoutonForet.Text = "Choisir";
                 }
                 
             });
@@ -88,9 +91,10 @@ namespace Prototype.Normes
         ///\\\  ///FONCTIONS POUR LE PAS\\\  ////
         ////\\\//////////////////////////\\\/////
 
-        public void ButtonChoixPas_Clicked(object sender, EventArgs args)
+        // BoutonPas_Clicked(): Affiche la liste des pas disponibles pour la norme précédemment séléctionnée lorsque l'on clique sur le bouton "Pas".
+        public void BoutonPas_Clicked(object sender, EventArgs args)
         {
-            if (BoutonChoixDiametre.Text == "1''")
+            if (BoutonDiametre.Text == "1''")
             {
                 Device.BeginInvokeOnMainThread(() => {
                     Tab_Pas.IsVisible = true;
@@ -105,28 +109,30 @@ namespace Prototype.Normes
             }
         }
 
-        public void ButtonValeurPas_Clicked(object sender, EventArgs args)
+        // BoutonValeurPas_Clicked(): Lorsque l'utilisateur clique sur le pas qu'il souhaite, la liste des pas se ferme pour revenir sur la page avec
+        // les 3 boutons (Diamètre, Pas et Perçage). Affiche également le perçage correspondant au pas choisi pour le diamètre ' 1" '.
+        public void BoutonValeurPas_Clicked(object sender, EventArgs args)
         {
             Button btn = (Button)sender;
-            BoutonChoixPas.Text = btn.Text;
+            BoutonPas.Text = btn.Text;
 
             Tab_Pas.IsVisible = false;
             TabBtnLabelDiametre.IsVisible = true;
             TabBtnLabelPas.IsVisible = true;
             TabBtnLabelPerçage.IsVisible = true;
 
-            if (BoutonChoixDiametre.Text == "1''" && BoutonChoixPas.Text == "12") {
-                BoutonChoixForet.Text = "23.25";
-                BoutonChoixForet.BackgroundColor = Color.SaddleBrown;
-            } else if(BoutonChoixDiametre.Text == "1''" && BoutonChoixPas.Text == "14") {
-                BoutonChoixForet.Text = "23.5";
-                BoutonChoixForet.BackgroundColor = Color.SaddleBrown;
+            if (BoutonDiametre.Text == "1''" && BoutonPas.Text == "12") {
+                BoutonForet.Text = "23.25";
+                BoutonForet.BackgroundColor = Color.SaddleBrown;
+            } else if(BoutonDiametre.Text == "1''" && BoutonPas.Text == "14") {
+                BoutonForet.Text = "23.5";
+                BoutonForet.BackgroundColor = Color.SaddleBrown;
             }
         }
 
-        // Désaffiche la liste des pas pour réapparaître sur le menu avec les trois boutons (Diamètre, Pas et Perçage)
+        // RetourPas_Clicked(): Désaffiche la liste des pas pour réapparaître sur le menu avec les trois boutons (Diamètre, Pas et Perçage)
         // lorsque l'on clique sur le bouton retour.
-        public void Retour_Pas(object sender, EventArgs args)
+        public void RetourPas_Clicked(object sender, EventArgs args)
         {
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Pas.IsVisible = false;
@@ -137,7 +143,7 @@ namespace Prototype.Normes
         }
 
         // AttributionRow(): Fais en sorte que les choix de pas apparaissent en haut de la liste.
-        // (sans cette fonction les éléments restent à leur position définie dans le fichier XAML).
+        // (sans cette fonction les éléments restent à leur position définie dans le fichier XAML et peuvent donc apparaître en milieu de page).
         public void AttributionRow()
         {
             Button[] tabBoutons = new Button[]{

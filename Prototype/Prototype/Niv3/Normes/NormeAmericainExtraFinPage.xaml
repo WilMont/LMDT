@@ -4,57 +4,150 @@
              x:Class="Prototype.Normes.NormeAmericainExtraFinPage">
     <ContentPage.Content>
         <Grid>
-
             <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
                    Aspect="Fill" />
 
-            <StackLayout>
-                <Grid HorizontalOptions="Fill"
+            <ScrollView>
+                <StackLayout>
+                    <Grid HorizontalOptions="Fill"
                 VerticalOptions="Start"
                 HeightRequest="25"
                 BackgroundColor="WhiteSmoke"
                 Opacity="0.75">
-                    <Label Text="AMERICAIN EXTRA FIN / UNEF"
+                        <Label Text="AMERICAIN EXTRA FIN / UNEF"
                 TextColor="Black"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 FontSize="Default" />
-                </Grid>
+                    </Grid>
 
-                <Button Text="Diamètre"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150" 
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre" Margin="-10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-                <Button Text="Pas"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BoutonDiametre"
+                            Clicked="BoutonDiametre_Clicked"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
 
-                <Button Text="Foret"
-                TextColor="Black"
-                BackgroundColor="SaddleBrown"
-                HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"
-                WidthRequest="150"
-                FontSize="Default"
-                BorderColor="Black"
-                BorderRadius="7"
-                BorderWidth="1" />
+                    <Grid x:Name="Tab_Diametre" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
 
-            </StackLayout>
+                        <Label Text="Choisissez un diamètre de taraud en pouce(s)." FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="RetourDiametre_Clicked"/>
+                        <!-- NORME -->
+
+                        <!-- 1/4 -->
+                        <Button Text="1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="D1/4 P32 F5.6"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+                        <!-- 5/16 -->
+                        <Button Text="5/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="D5/16 P32 F7.2"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 3/8 -->
+                        <Button Text="3/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="D3/8 P32 F8.8"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 7/16 -->
+                        <Button Text="7/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="D7/16 P28 F10.25"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 1/2 -->
+                        <Button Text="1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="D1/2 P28 F11.8"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+                        <!-- 9/16 -->
+                        <Button Text="9/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="D9/16 P24 F13.3"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 5/8 -->
+                        <Button Text="5/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="D5/8 P24 F14.75"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 3/4 -->
+                        <Button Text="3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="D3/4 P20 F17.75"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 7/8 -->
+                        <Button Text="7/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="D7/8 P20 F21"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+
+                        <!-- 1'' -->
+                        <Button Text="1''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="D1'' P20 F24.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+
+                    </Grid>
+
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas" Margin="-10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="Gray"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BoutonPas"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
+
+
+                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPerçage">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="Gray"
+                            FontAttributes="Bold"
+                            FontSize="Default"
+                            BorderColor="Black"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BoutonForet"
+                            Grid.Row="1" Grid.Column="0"/>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
