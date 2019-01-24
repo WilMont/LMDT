@@ -14,7 +14,7 @@
                 HeightRequest="25"
                 BackgroundColor="WhiteSmoke"
                 Opacity="0.75">
-                        <Label Text="Trapeze / TR"
+                        <Label Text="TRAPEZE / TR"
                 TextColor="Black"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
@@ -29,7 +29,7 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Diametre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Diamètre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
