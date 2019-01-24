@@ -9,9 +9,6 @@
         <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png" Aspect="Fill" />
         <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/noir-300x300.jpg" Opacity="0.25" Aspect="Fill" />
 
-
-
-
         <StackLayout>
             <Label Text="Tarauds et filtages par LMDT"
                TextColor="WhiteSmoke"
