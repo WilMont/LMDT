@@ -16,68 +16,45 @@ namespace Prototype
 			InitializeComponent ();
 		}
 
-        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        ///
         public void ButtonChoixDiametre(object sender, EventArgs args)
         {
-            Device.BeginInvokeOnMainThread(() => {
+            Device.BeginInvokeOnMainThread(() =>
+            {
                 Tab_Diametre.IsVisible = true;
-                BouttonChoixDiametre.IsVisible = false;
-                BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
-                  });
+                TabBtnLabelDiametre.IsVisible = false;
+                TabBtnLabelPas.IsVisible = false;
+                TabBtnLabelPerçage.IsVisible = false;
+            });
         }
 
         public void Retour_Diametre(object sender, EventArgs args)
         {
-            Device.BeginInvokeOnMainThread(() => {
+            Device.BeginInvokeOnMainThread(() =>
+            {
                 Tab_Diametre.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
-            });
-        }
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-        public void ButtonChoixPas(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Pas.IsVisible = true;
-                BouttonChoixDiametre.IsVisible = false;
-                BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
+                TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPerçage.IsVisible = true;
             });
         }
 
-        public void Retour_Pas(object sender, EventArgs args)
+        void Button_Click(object sender, EventArgs args)
         {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Pas.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
-            });
-        }
-        
+            Button btn = (Button)sender;
 
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        public void ButtonChoixPerçage(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Perçage.IsVisible = true;
-                BouttonChoixDiametre.IsVisible = false;
-                BouttonChoixPas.IsVisible = false;
-                BouttonChoixPerçage.IsVisible = false;
-            });
-        }
+            var textDiametre = btn.Text.Substring(0, 4);
+            var textPas = btn.Text.Substring(4, 4);
+            var textForet = btn.Text.Substring(9, 4);
 
-        public void Retour_Perçage(object sender, EventArgs args)
-        {
-            Device.BeginInvokeOnMainThread(() => {
-                Tab_Perçage.IsVisible = false;
-                BouttonChoixDiametre.IsVisible = true;
-                BouttonChoixPas.IsVisible = true;
-                BouttonChoixPerçage.IsVisible = true;
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Tab_Diametre.IsVisible = false;
+                TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPerçage.IsVisible = true;
+                BouttonChoixDiametre.Text = textDiametre;
+                BouttonChoixPas.Text = textPas;
+                BouttonChoixForet.Text = textForet;
             });
         }
 
