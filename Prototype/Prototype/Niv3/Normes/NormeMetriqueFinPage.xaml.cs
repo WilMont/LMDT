@@ -349,7 +349,8 @@ namespace Prototype
         {
             Button btn = (Button)sender;
             BoutonChoixPas.Text = btn.Text;
-            var doubleChoixDiametre = Convert.ToDouble(BoutonChoixDiametre.Text);
+            var doubleChoix
+                = Convert.ToDouble(BoutonChoixDiametre.Text);
             var doubleChoixPas = Convert.ToDouble(btn.Text);
 
             var doubleChoixForet = doubleChoixDiametre - doubleChoixPas;

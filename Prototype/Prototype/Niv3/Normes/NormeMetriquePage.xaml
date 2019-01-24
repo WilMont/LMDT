@@ -21,7 +21,7 @@
                 FontSize="Default" />
                     </Grid>
 
-                    <Button Text="Diametre"
+                    <Button Text="Diamètre"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             HorizontalOptions="CenterAndExpand"
