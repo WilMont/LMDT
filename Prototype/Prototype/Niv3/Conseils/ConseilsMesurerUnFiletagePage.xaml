@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.ConseilsMesurerUnFiletagePage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/blanc_app.jpg"
+                   Aspect="AspectFill"
+                   Opacity="0.5"/>
+
+            <ScrollView HorizontalOptions="FillAndExpand">
+                <StackLayout HorizontalOptions="Fill" VerticalOptions="CenterAndExpand">
+
+                        <Button Text="Le diamètre"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="Medium"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Clicked="AfficherLabelsDiametre"/>
+
+                        <Grid x:Name="LabelsDiametre" VerticalOptions="StartAndExpand" HorizontalOptions="Fill" IsVisible="False">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_1" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_2" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_3" Grid.Row="2" Grid.Column="0"/>
+                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" x:Name="Label_4" Grid.Row="3" Grid.Column="0"/>
+                        </Grid>
+
+                    <Label Text=" "/>
+
+                        <Button Text="Le pas"
+                                    FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="Medium"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Clicked="AfficherLabelsPas"/>
+
+                        <Grid x:Name="LabelsPas" VerticalOptions="StartAndExpand" HorizontalOptions="Fill" IsVisible="False">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm"  TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_5" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_6" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" x:Name="Label_7" Grid.Row="2" Grid.Column="0"/>
+                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" x:Name="Label_8" Grid.Row="3" Grid.Column="0"/>
+                        </Grid>
+
+                    <Label Text=" "/>
+
+                        <Button Text="L'angle"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="Medium"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="StartAndExpand"
+                                Clicked="AfficherLabelsAngles"/>
+
+                        <Grid x:Name="LabelsAngle" VerticalOptions="StartAndExpand" HorizontalOptions="Fill" IsVisible="False">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                            
+                            <Label Text="*Soit pour le métrique, le nombre de filets sur 1 cm"  TextColor="Black" FontSize="Default" x:Name="Label_9" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                            <Label Text="Exemple : 10x100 : diam 10.0 mm, et 10 filets sur 1 cm" TextColor="Black" FontSize="Default" x:Name="Label_10" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="*Soit pour le pouce, le nombre de filets sur 1 pouce, soit 25.4 mm" TextColor="Black" FontSize="Default" x:Name="Label_11" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                            <Label Text="Exemple ½ 20 unf : diam ½ pouce ( soit 12.7 mm) et 20 filets sur 1 pouce ( soit sur 25.4 mm )" FontSize="Default" TextColor="Black" x:Name="Label_12" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                         </Grid>
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

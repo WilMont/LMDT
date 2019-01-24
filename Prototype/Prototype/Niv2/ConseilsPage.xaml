@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.ConseilsPage">
+    <ContentPage.Content>
+<Grid>
+    <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+        Aspect="Fill" />
+
+        <StackLayout>
+            <Label Text="Les conseils du Pro!"
+                TextColor="WhiteSmoke"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+                                    
+                <Button Text="Mesurer un filetage"
+                        TextColor="Black"
+                        BackgroundColor="SaddleBrown"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        FontSize="Default"
+                        BorderColor="Chocolate"
+                        BorderRadius="7"
+                        BorderWidth="1"
+                        Clicked="BtnMesurerUnFiletage_Clicked"/>
+               
+                <Button Text="Incidents et Résolutions "
+                        TextColor="Black"
+                        BackgroundColor="SaddleBrown"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="150"
+                        FontSize="Default"
+                        BorderColor="Chocolate"
+                        BorderRadius="7"
+                        BorderWidth="1"
+                        Clicked="IncidentsEtResolutions_Clicked"/>
+
+            </StackLayout>
+</Grid>
+    </ContentPage.Content>
+</ContentPage>

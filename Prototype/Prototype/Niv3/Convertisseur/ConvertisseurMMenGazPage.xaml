@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.ConvertisseurMMenGazPage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="MM vers Gaz" 
+                           TextColor="WhiteSmoke"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="EndAndExpand"
+                           FontSize="Default"
+                           FontAttributes="Bold"
+                           x:Name="LabelBtn1"/>
+                    <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            WidthRequest="150" 
+                            FontSize="Default"
+                            BorderColor="Chocolate"
+                            BorderRadius="7"
+                            BorderWidth="1" 
+                            x:Name="BouttonChoixMM"
+                            Clicked="ButtonChoixMM"/>
+
+                    <Grid x:Name="Tab_MM" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0" Clicked="Retour_millimètre"/>
+                        <Label Text="Choisissez un millimètrage" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
+
+                        <Button Text="7.72" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="7.72   1/16     " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0"  Grid.Row="2" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="9.72" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="9.72   1/8      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="13.15" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="13.15  1/4      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="16.66" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="16.66  3/8      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="20.95" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="20.95  1/2      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="22.91" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="22.91  5/8      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="26.44" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="26.44  3/4      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="30.2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="30.2   7/8      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9" Grid.Column="0"  Clicked="Button_Click_MM"/>
+
+                        <Button Text="33.24" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="33.24  1''      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="37.89" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="39.89  1'' 1/8  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="41.91" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="41.91  1'' 1/4  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="12" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="44.32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
+                        <Button Text="44.32  1'' 3/8  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="47.8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
+                        <Button Text="47.8   1'' 1/2   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="14" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="53.74" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
+                        <Button Text="53.74  1'' 3/4   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="59.61" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
+                        <Button Text="59.61  2''       " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="16" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="65.71" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17" Grid.Column="0"/>
+                        <Button Text="65.71  2'' 1/4   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="17" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="75.18" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18" Grid.Column="0"/>
+                        <Button Text="75.18  2'' 1/2   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="18" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="81.53" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19" Grid.Column="0"/>
+                        <Button Text="81.53  2'' 3/4   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="19" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="87.88" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20" Grid.Column="0"/>
+                        <Button Text="87.88  3''       " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="20" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="93.98" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21" Grid.Column="0"/>
+                        <Button Text="93.98  3'' 1/4   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="21" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="100.33" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22" Grid.Column="0"/>
+                        <Button Text="100.33 3'' 1/2  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="22" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="106.68" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23" Grid.Column="0"/>
+                        <Button Text="106.68 3'' 3/4  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="23" Grid.Column="0" Clicked="Button_Click_MM"/>
+
+                        <Button Text="113.03" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24" Grid.Column="0"/>
+                        <Button Text="113.03 4''      " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24" Grid.Column="0" Clicked="Button_Click_MM"/>
+                    </Grid>
+
+                    <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.5" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
+                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-150x150.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
+                    </Frame>
+
+                    <Label Text="Gaz vers MM" 
+                           TextColor="WhiteSmoke"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="EndAndExpand"
+                           FontSize="Default"
+                           FontAttributes="Bold"
+                           x:Name="LabelBtn2"/>
+                    <Button Text="Choisir"
+                            TextColor="Black"
+                            BackgroundColor="SaddleBrown"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="StartAndExpand"
+                            WidthRequest="150" 
+                            FontSize="Default"
+                            BorderColor="Chocolate"
+                            BorderRadius="7"
+                            BorderWidth="1"
+                            x:Name="BouttonChoixGaz"
+                            Clicked="ButtonChoixGaz"/>
+
+                    <Grid x:Name="Tab_Gaz" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0" Clicked="Retour_millimètre"/>
+                        <Label Text="Choisissez un millimètrage" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0"/>
+
+                        <Button Text="7.72" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="1/16      7.72   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0"  Grid.Row="2" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="9.72" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="1/8       9.72   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="13.15" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="1/4       13.15  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="16.66" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="3/8       16.66  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="20.95" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="1/2       20.95  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="22.91" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="5/8       22.91  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="26.44" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="3/4       26.44  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="30.2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="7/8       30.2   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9" Grid.Column="0"  Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="33.24" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="1''       33.24  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="37.89" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="1'' 1/8   39.89  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="41.91" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="1'' 1/4   41.91  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="12" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="44.32" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
+                        <Button Text="1'' 3/8   44.32  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="47.8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
+                        <Button Text="1'' 1/2   47.8   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="14" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="53.74" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
+                        <Button Text="1'' 3/4   53.74  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="59.61" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
+                        <Button Text="2''       59.61  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="16" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="65.71" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="17" Grid.Column="0"/>
+                        <Button Text="2'' 1/4   65.71  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="17" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="75.18" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="18" Grid.Column="0"/>
+                        <Button Text="2'' 1/2   75.18  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="18" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="81.53" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="19" Grid.Column="0"/>
+                        <Button Text="2'' 3/4   81.53  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="19" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="87.88" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="20" Grid.Column="0"/>
+                        <Button Text="3''       87.88  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="20" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="93.98" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="21" Grid.Column="0"/>
+                        <Button Text="3'' 1/4   93.98  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="21" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="100.33" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="22" Grid.Column="0"/>
+                        <Button Text="3'' 1/2   100.33 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="22" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="106.68" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="23" Grid.Column="0"/>
+                        <Button Text="3'' 3/4   106.68 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="23" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+
+                        <Button Text="113.03" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="24" Grid.Column="0"/>
+                        <Button Text="4''       113.03 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24" Grid.Column="0" Clicked="Button_Click_Gaz"/>
+                    </Grid>
+
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

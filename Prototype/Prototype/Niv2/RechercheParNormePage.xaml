@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Prototype.RechercheParNormePage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/Voiture_lmdt_app.png"
+                   Aspect="Fill" />
+
+            <ScrollView>
+                <StackLayout>
+
+                    <Grid x:Name="Tab_Norme" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Choisissez une norme" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+
+                        <Button Text="METRIQUE / M" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Metrique_Button"/>
+                        <Button Text="METRIQUE FIN / MF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" Clicked="MetriqueFin_Button"/>
+                        <Button Text="AMERICAIN / UNC" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0" Clicked="Americain_Button"/>
+                        <Button Text="AMERICAIN FIN / UNF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0" Clicked="AmericainFin_Button"/>
+                        <Button Text="AMERICAIN EXTRA FIN / UNEF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0" Clicked="AmericainExtraFin_Button"/>
+                        <Button Text="ANGLAIS / BSW" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0" Clicked="Anglais_Button"/>
+                        <Button Text="ANGLAIS FIN / BSF" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0" Clicked="AnglaisFin_Button"/>
+                        <Button Text="GAZ CYLINDRIQUE / BSP" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0" Clicked="GazCylindrique_Button"/>
+                        <Button Text="GAZ CONIQUE AMERICAIN / NPT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0" Clicked="GazCylindriqueAmericain_Button"/>
+                        <Button Text="PAS ELECTRIQUE / PT" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0" Clicked="PasElectrique_Button"/>
+                        <Button Text="TRAPEZE / TR" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0" Clicked="Trapeze_Button"/>
+
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
