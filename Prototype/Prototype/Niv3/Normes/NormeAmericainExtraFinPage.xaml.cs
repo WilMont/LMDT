@@ -76,10 +76,11 @@ namespace Prototype
 
                 BoutonPas.Text = textePas;
                 BoutonPas.BackgroundColor = Color.SaddleBrown;
+                BoutonPas.BorderColor = Color.Chocolate;
 
-                BoutonForet.BackgroundColor = Color.Gray;
                 BoutonForet.Text = texteForet;
                 BoutonForet.BackgroundColor = Color.SaddleBrown;
+                BoutonForet.BorderColor = Color.Chocolate;
             });
         }
 
