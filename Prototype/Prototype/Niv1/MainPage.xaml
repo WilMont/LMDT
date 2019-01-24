@@ -10,7 +10,7 @@
         
 
         <StackLayout>
-            <Label Text="Tarauds et filtages par LMDT"
+            <Label Text="Tarauds et filtages par LMDT "
                TextColor="WhiteSmoke"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="StartAndExpand" 
