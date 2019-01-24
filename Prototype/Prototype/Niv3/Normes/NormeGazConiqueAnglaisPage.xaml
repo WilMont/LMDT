@@ -88,7 +88,7 @@
                             BackgroundColor="Gray"
                             FontAttributes="Bold"
                             FontSize="Default"
-                            BorderColor="Chocolate"
+                            BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
                             x:Name="BouttonChoixPas"
