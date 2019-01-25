@@ -124,7 +124,7 @@
                         <Button Text="1'' 7/8 4.5 41.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="24" Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="2''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="25" Grid.Column="0"/>
-                        <Button Text="2'' 4.5 44.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="25" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="2''     4.5 44.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="25" Grid.Column="0" Clicked="Button_Click"/>
                     </Grid>
 
 
