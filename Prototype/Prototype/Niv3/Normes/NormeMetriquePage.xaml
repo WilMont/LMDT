@@ -55,7 +55,7 @@
                         <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Diametre"/>
 
                         <Button Text="1" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="1   0.25 0.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1   0.25 0.75" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
 
                         <Button Text="1.1" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
                         <Button Text="1.1 0.25 0.85" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3" Grid.Column="0" Clicked="Button_Click"/>
