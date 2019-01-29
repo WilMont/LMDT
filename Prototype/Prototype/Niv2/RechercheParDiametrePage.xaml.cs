@@ -23,6 +23,9 @@ namespace Prototype
                 TabBtnLabelDiametre.IsVisible = false;
                 TabBtnLabelPas.IsVisible = false;
                 TabBtnLabelPerçage.IsVisible = false;
+
+
+
             });
         }
 
