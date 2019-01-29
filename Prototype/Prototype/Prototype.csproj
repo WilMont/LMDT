@@ -94,7 +94,7 @@
     <EmbeddedResource Update="Niv3\Normes\NormeTrapezePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Temp.xaml">
+    <EmbeddedResource Update="TestRechercheParDiametre.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
