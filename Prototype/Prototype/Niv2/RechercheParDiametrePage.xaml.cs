@@ -91,7 +91,7 @@ namespace Prototype
                 TabBtnLabelPas.IsVisible = true;
                 TabBtnLabelPerçage.IsVisible = true;
 
-                BoutonChoixDiametre.Text = textDiametre;
+                BoutonChoixDiametre.Text = textDiametre.Trim();
 
                 BtnPasChoix1.Text = textPerçage1 + textPas1;
                 BtnPasChoix2.Text = textPerçage2 + textPas2;
