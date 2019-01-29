@@ -68,11 +68,15 @@ namespace Prototype
 
             var textDiametre = btn.Text.Substring(0, 18);
             var textPas1 = btn.Text.Substring(19, 11);
-            var textPas2 = btn.Text.Substring(30, 11);
-            var textPas3 = btn.Text.Substring(42, 11);
-            var textPas4 = btn.Text.Substring(54, 11);
-            var textPas5 = btn.Text.Substring(66, 11);
-            var textPerçage = btn.Text.Substring(78, 6);
+            var textPas2 = btn.Text.Substring(31, 11);
+            var textPas3 = btn.Text.Substring(43, 11);
+            var textPas4 = btn.Text.Substring(55, 11);
+            var textPas5 = btn.Text.Substring(67, 11);
+            var textPerçage1 = btn.Text.Substring(79, 5);
+            var textPerçage2 = btn.Text.Substring(85, 5);
+            var textPerçage3 = btn.Text.Substring(91, 5);
+            var textPerçage4 = btn.Text.Substring(97, 5);
+            var textPerçage5 = btn.Text.Substring(103, 5);
 
             Device.BeginInvokeOnMainThread(() =>
             {
@@ -83,11 +87,11 @@ namespace Prototype
 
                 BoutonChoixDiametre.Text = textDiametre;
 
-                BtnPasChoix1.Text = textPerçage + textPas1;
-                BtnPasChoix2.Text = textPerçage + textPas2;
-                BtnPasChoix3.Text = textPerçage + textPas3;
-                BtnPasChoix4.Text = textPerçage + textPas4;
-                BtnPasChoix5.Text = textPerçage + textPas5;
+                BtnPasChoix1.Text = textPerçage1 + textPas1;
+                BtnPasChoix2.Text = textPerçage2 + textPas2;
+                BtnPasChoix3.Text = textPerçage3 + textPas3;
+                BtnPasChoix4.Text = textPerçage4 + textPas4;
+                BtnPasChoix5.Text = textPerçage5 + textPas5;
 
                 BtnPasChoix1Front.Text = textPas1;
                 BtnPasChoix2Front.Text = textPas2;
