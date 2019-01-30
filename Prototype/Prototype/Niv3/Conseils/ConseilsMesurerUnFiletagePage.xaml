@@ -17,7 +17,7 @@
                                 FontAttributes="Bold"
                                 TextColor="Black"
                                 BackgroundColor="WhiteSmoke"
-                                FontSize="Medium"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="AfficherLabelsDiametre"/>
@@ -31,17 +31,18 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                            <Label Text="Pour un taraud, prendre le diamètre mesuré sur le sommet extérieur des filets."                              TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                            <Label Text="Pour une filière, ou une dimension en creux, prendre le diamètre mesuré sur le sommet intérieur des filets." TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                            <Label Text="Pour un taraud, prendre le diamètre mesuré sur le sommet extérieur des filets."                              
+                                   TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                            
+                            <Label Text="Pour une filière, ou une dimension en creux, prendre le diamètre mesuré sur le sommet intérieur des filets." 
+                                   TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
                         </Grid>
-
-                    <Label Text=" "/>
 
                         <Button Text="Le pas"
                                 FontAttributes="Bold"
                                 TextColor="Black"
                                 BackgroundColor="WhiteSmoke"
-                                FontSize="Medium"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="AfficherLabelsPas"/>
@@ -70,13 +71,11 @@
                                    TextColor="Black"  Font="25" VerticalOptions="StartAndExpand" Grid.Row="4" Grid.Column="0"/>
                         </Grid>
 
-                    <Label Text=" "/>
-
                     <Button Text="L'angle"
                                 FontAttributes="Bold"
                                 TextColor="Black"
                                 BackgroundColor="WhiteSmoke"
-                                FontSize="Medium"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="AfficherLabelsAngles"/>
