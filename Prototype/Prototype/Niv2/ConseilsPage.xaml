@@ -8,20 +8,20 @@
         Aspect="Fill" />
 
         <StackLayout>
-            <Label Text="Les conseils du Pro!"
+            <Label Text="Les conseils du Pro !"
                 TextColor="WhiteSmoke"
                 FontAttributes="Bold"
-                FontSize="Large"
+                Font="30"
                 HorizontalOptions="CenterAndExpand"
-                VerticalOptions="CenterAndExpand"/>
+                VerticalOptions="EndAndExpand"/>
                                     
                 <Button Text="Mesurer un filetage"
                         TextColor="Black"
                         BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        WidthRequest="150"
-                        FontSize="Default"
+                        VerticalOptions="StartAndExpand"
+                        WidthRequest="280"
+                        Font="26"
                         BorderColor="Chocolate"
                         BorderRadius="7"
                         BorderWidth="1"
@@ -31,9 +31,9 @@
                         TextColor="Black"
                         BackgroundColor="SaddleBrown"
                         HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        WidthRequest="150"
-                        FontSize="Default"
+                        VerticalOptions="StartAndExpand"
+                        WidthRequest="280"
+                        Font="26"
                         BorderColor="Chocolate"
                         BorderRadius="7"
                         BorderWidth="1"
