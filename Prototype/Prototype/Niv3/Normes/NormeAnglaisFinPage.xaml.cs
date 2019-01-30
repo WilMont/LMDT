@@ -75,20 +75,11 @@ namespace Prototype.Niv3.Normes
                 BoutonDiametre.Text = texteDiametre;
 
                 BoutonPas.Text = textePas;
-                BoutonPas.BackgroundColor = Color.SaddleBrown;
 
                 BoutonForet.BackgroundColor = Color.Gray;
                 BoutonForet.Text = texteForet;
-                BoutonForet.BackgroundColor = Color.SaddleBrown;
             });
         }
 
-        //\\\    //////////////////////\\\    ///
-        ///\\\  ///FONCTIONS POUR LE PAS\\\  ////
-        ////\\\//////////////////////////\\\/////
-
-
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	}
 }

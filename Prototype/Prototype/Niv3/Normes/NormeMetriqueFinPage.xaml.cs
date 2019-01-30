@@ -61,6 +61,7 @@ namespace Prototype.Niv3.Normes
                 TabBtnLabelPerçage.IsVisible = true;
                 BoutonChoixDiametre.Text = textDiametre.Trim();
                 BoutonChoixPas.BackgroundColor = Color.SaddleBrown;
+                BoutonChoixPas.BorderColor = Color.Chocolate;
                 BoutonChoixPas.Text = "Choisir";
                 BoutonChoixForet.Text = "Choisir";
                 BoutonChoixForet.BackgroundColor = Color.Gray;
@@ -360,8 +361,6 @@ namespace Prototype.Niv3.Normes
             TabBtnLabelDiametre.IsVisible = true;
             TabBtnLabelPas.IsVisible = true;
             TabBtnLabelPerçage.IsVisible = true;
-
-            BoutonChoixForet.BackgroundColor = Color.SaddleBrown;
         }
 
         public void Retour_Pas(object sender, EventArgs args)

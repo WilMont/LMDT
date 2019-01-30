@@ -70,20 +70,19 @@ namespace Prototype
                 TabBtnLabelPas.IsVisible = true;
                 TabBtnLabelPerçage.IsVisible = true;
                 BoutonDiametre.Text = texteDiametre;
-                BoutonPas.BackgroundColor = Color.SaddleBrown;
                 BoutonForet.BackgroundColor = Color.Gray;
 
                 if (BoutonDiametre.Text == texteDiametre && BoutonDiametre.Text != "1''")
                 {
                     BoutonPas.Text = textePas;
                     BoutonForet.Text = texteForet;
-                    BoutonForet.BackgroundColor = Color.SaddleBrown;
-                    BoutonPas.BackgroundColor = Color.SaddleBrown;
                 }
                 else
                 {
                     BoutonPas.Text = "Choisir";
                     BoutonForet.Text = "Choisir";
+                    BoutonPas.BackgroundColor = Color.SaddleBrown;
+                    BoutonPas.BorderColor = Color.Chocolate;
                 }
 
             });
@@ -126,12 +125,10 @@ namespace Prototype
             if (BoutonDiametre.Text == "1''" && BoutonPas.Text == "12")
             {
                 BoutonForet.Text = "23.25";
-                BoutonForet.BackgroundColor = Color.SaddleBrown;
             }
             else if (BoutonDiametre.Text == "1''" && BoutonPas.Text == "14")
             {
                 BoutonForet.Text = "23.5";
-                BoutonForet.BackgroundColor = Color.SaddleBrown;
             }
         }
 
