@@ -10,18 +10,25 @@
         
 
         <StackLayout>
-            <Label Text="Tarauds et filtages par LMDT"
+            <Label Text="Tarauds et filtages"
                TextColor="WhiteSmoke"
                HorizontalOptions="CenterAndExpand"
-               VerticalOptions="StartAndExpand" 
-               FontSize="Medium"
-               HeightRequest="30"/>
+               VerticalOptions="EndAndExpand"
+               Font="30"
+               FontAttributes="Bold"/>
+            <Label Text="par LMDT"
+               TextColor="WhiteSmoke"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="StartAndExpand"
+               Font="30"
+               FontAttributes="Bold"/>
 
             <Label Text="Recherche par"
                TextColor="WhiteSmoke"
                HorizontalOptions="Center"
                VerticalOptions="End" 
-               FontSize="Medium"/>
+               Font="30"
+               FontAttributes="Bold"/>
 
             <Grid >
                 <Grid.RowDefinitions>
@@ -37,10 +44,8 @@
                 TextColor="Black"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="Center"
-                WidthRequest="125"
-                HeightRequest="40"
-                FontAttributes="Bold"
-                FontSize="Medium"
+                Font="26"
+                WidthRequest="180"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
@@ -52,10 +57,8 @@
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"
-                WidthRequest="125"
-                HeightRequest="40"
-                FontAttributes="Bold"
-                FontSize="Medium"
+                Font="26"
+                WidthRequest="180"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
@@ -68,13 +71,11 @@
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"
-                WidthRequest="180"
-                FontAttributes="Bold"
-                FontSize="Medium"
+                Font="26"
+                WidthRequest="240"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
-                Margin="18"
                 Clicked="BtnConvertisseurs_Clicked"/>
 
             <Button Text="Conseils"
@@ -82,9 +83,8 @@
                 BackgroundColor="SaddleBrown"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="StartAndExpand"
-                WidthRequest="180"
-                FontAttributes="Bold"
-                FontSize="Medium"
+                Font="26"
+                WidthRequest="240"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
@@ -101,7 +101,6 @@
                 <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/LogoLMDT_icon-300x140.png" 
                        HorizontalOptions="Center" 
                        VerticalOptions="End" 
-                       HeightRequest="40" 
                        Grid.Row="0" Grid.Column="0"/>
 
                 <Button Text="La maison du taraud.com"
@@ -109,10 +108,7 @@
                         BackgroundColor="SaddleBrown" 
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="Start"
-                        WidthRequest="120"
-                        HeightRequest="30"
                         FontAttributes="Bold"
-                        FontSize="7"
                         BorderColor="Chocolate"
                         BorderWidth="1" 
                         x:Name="Logo_LMDT"
