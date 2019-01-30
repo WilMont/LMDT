@@ -15,7 +15,8 @@
                     <Button Text="Taraudage trop grand"
                                 FontAttributes="Bold"
                                 TextColor="Black"
-                                FontSize="Medium"
+                                BackgroundColor="WhiteSmoke"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="TaraudageTropGrand"/>
@@ -29,18 +30,30 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="- Géométrie de taraud inappropriée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="- Collage sur les flancs du taraud" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
-                        <Label Text="- Profondeur de taraudage trop faible" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
-                        <Label Text="- Vitesse de coupe trop élevée" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" Grid.Row="3" Grid.Column="0"/>
-                        <Label Text="- Mauvaise lubrification" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" Grid.Row="4" Grid.Column="0"/>
-                        <Label Text="- Mauvais choix de tolérance" FontSize="Default" VerticalOptions="StartAndExpand" TextColor="Black" Grid.Row="5" Grid.Column="0"/>
+                        <Label Text="- Géométrie de taraud inappropriée"    
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        
+                        <Label Text="- Collage sur les flancs du taraud"    
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                        
+                        <Label Text="- Profondeur de taraudage trop faible" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                        
+                        <Label Text="- Vitesse de coupe trop élevée"        
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                        
+                        <Label Text="- Mauvaise lubrification"              
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="4" Grid.Column="0"/>
+                        
+                        <Label Text="- Mauvais choix de tolérance"          
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="5" Grid.Column="0"/>
                     </Grid>
 
                     <Button Text="Taraudage trop serrés"
                                 FontAttributes="Bold"
                                 TextColor="Black"
-                                FontSize="Medium"
+                                BackgroundColor="WhiteSmoke"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="TaraudageTropSerré"/>
@@ -54,14 +67,18 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="- Mauvais choix de tolérance" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="- Géométrie de taraud inappropriée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                        <Label Text="- Mauvais choix de tolérance"       
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        
+                        <Label Text="- Géométrie de taraud inappropriée" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
                     </Grid>
 
                     <Button Text="Casse du taraud en retour"
                                 FontAttributes="Bold"
                                 TextColor="Black"
-                                FontSize="Medium"
+                                BackgroundColor="WhiteSmoke"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="TaraudageCassé"/>
@@ -75,17 +92,27 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="- Diamètre d'avant trou trop petit" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="- Profondeur d'avant trou trop faible" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
-                        <Label Text="- Géométrie de taraud inappropriée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
-                        <Label Text="- Mauvais bridage de la pièce" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
-                        <Label Text="- Mauvais alignement pièce/broche" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="4" Grid.Column="0"/>
+                        <Label Text="- Diamètre d'avant trou trop petit"    
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        
+                        <Label Text="- Profondeur d'avant trou trop faible" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                        
+                        <Label Text="- Géométrie de taraud inappropriée"    
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                        
+                        <Label Text="- Mauvais bridage de la pièce"         
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                        
+                        <Label Text="- Mauvais alignement pièce/broche"     
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="4" Grid.Column="0"/>
                     </Grid>
 
                     <Button Text="Mauvais état de surface"
                                 FontAttributes="Bold"
                                 TextColor="Black"
-                                FontSize="Medium"
+                                BackgroundColor="WhiteSmoke"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="TaraudAbimé"/>
@@ -99,16 +126,24 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="- Vitesse de coupe trop élevée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="- Diamètre d'avant trou trop petit" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
-                        <Label Text="- Géométrie de taraud inappropriée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
-                        <Label Text="- Collage sur les flancs du taraud" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                        <Label Text="- Vitesse de coupe trop élevée"     
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        
+                        <Label Text="- Diamètre d'avant trou trop petit" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                        
+                        <Label Text="- Géométrie de taraud inappropriée" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                        
+                        <Label Text="- Collage sur les flancs du taraud" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
                     </Grid>
 
                     <Button Text="Durée de vie trop courte"
                                 FontAttributes="Bold"
                                 TextColor="Black"
-                                FontSize="Medium"
+                                BackgroundColor="WhiteSmoke"
+                                Font="30"
                                 HorizontalOptions="FillAndExpand"
                                 VerticalOptions="StartAndExpand"
                                 Clicked="DuréeDeVieTropCourte"/>
@@ -122,10 +157,17 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="- Vitesse de coupe trop élevée" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
-                        <Label Text="- Diamètre d'avant trou trop petit" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
-                        <Label Text="- Parois de l'avant trou écroui" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
-                        <Label Text="- Mauvaise évacuation des copeaux" TextColor="Black" FontSize="Default" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
+                        <Label Text="- Vitesse de coupe trop élevée"     
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        
+                        <Label Text="- Diamètre d'avant trou trop petit" 
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="1" Grid.Column="0"/>
+                        
+                        <Label Text="- Parois de l'avant trou écroui"    
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="2" Grid.Column="0"/>
+                        
+                        <Label Text="- Mauvaise évacuation des copeaux"  
+                               TextColor="Black" Font="25" VerticalOptions="StartAndExpand" Grid.Row="3" Grid.Column="0"/>
                     </Grid>
 
             </StackLayout>

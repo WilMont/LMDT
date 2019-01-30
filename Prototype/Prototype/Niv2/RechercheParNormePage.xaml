@@ -19,18 +19,104 @@
 
                         <Label Text="Choisissez une norme" Font="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
 
-                        <Button Text="METRIQUE / M"                 TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="1" Grid.Column="0" Clicked="Metrique_Button"/>
-                        <Button Text="METRIQUE FIN / MF"            TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="2" Grid.Column="0" Clicked="MetriqueFin_Button"/>
-                        <Button Text="AMERICAIN / UNC"              TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="3" Grid.Column="0" Clicked="Americain_Button"/>
-                        <Button Text="AMERICAIN FIN / UNF"          TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="4" Grid.Column="0" Clicked="AmericainFin_Button"/>
-                        <Button Text="AMERICAIN EXTRA FIN / UNEF"   TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="5" Grid.Column="0" Clicked="AmericainExtraFin_Button"/>
-                        <Button Text="ANGLAIS / BSW"                TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="6" Grid.Column="0" Clicked="Anglais_Button"/>
-                        <Button Text="ANGLAIS FIN / BSF"            TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="7" Grid.Column="0" Clicked="AnglaisFin_Button"/>
-                        <Button Text="GAZ CYLINDRIQUE / BSP"        TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="8" Grid.Column="0" Clicked="GazCylindrique_Button"/>
-                        <Button Text="GAZ CONIQUE AMERICAIN / NPT"  TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="9" Grid.Column="0" Clicked="GazCylindriqueAmericain_Button"/>
-                        <Button Text="PAS ELECTRIQUE / PT"          TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="10" Grid.Column="0" Clicked="PasElectrique_Button"/>
-                        <Button Text="TRAPEZE / TR"                 TextColor="Black" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Center" HeightRequest="70" Grid.Row="11" Grid.Column="0" Clicked="Trapeze_Button"/>
+                        <Button Text="METRIQUE / M"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="1" Grid.Column="0" 
+                                Clicked="Metrique_Button"/>
 
+                        <Button Text="METRIQUE FIN / MF"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="2" Grid.Column="0" 
+                                Clicked="MetriqueFin_Button"/>
+
+                        <Button Text="AMERICAIN / UNC"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" Grid.Row="3" 
+                                Grid.Column="0" 
+                                Clicked="Americain_Button"/>
+
+                        <Button Text="AMERICAIN FIN / UNF"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="4" Grid.Column="0" 
+                                Clicked="AmericainFin_Button"/>
+
+                        <Button Text="AMERICAIN EXTRA FIN / UNEF"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="5" Grid.Column="0" 
+                                Clicked="AmericainExtraFin_Button"/>
+
+                        <Button Text="ANGLAIS / BSW"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="6" Grid.Column="0" 
+                                Clicked="Anglais_Button"/>
+
+                        <Button Text="ANGLAIS FIN / BSF"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="7" Grid.Column="0" 
+                                Clicked="AnglaisFin_Button"/>
+
+                        <Button Text="GAZ CYLINDRIQUE / BSP"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="8" Grid.Column="0" 
+                                Clicked="GazCylindrique_Button"/>
+
+                        <Button Text="GAZ CONIQUE AMERICAIN / NPT"  
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="9" Grid.Column="0" 
+                                Clicked="GazCylindriqueAmericain_Button"/>
+
+                        <Button Text="PAS ELECTRIQUE / PG"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="10" Grid.Column="0" 
+                                Clicked="PasElectrique_Button"/>
+
+                        <Button Text="TRAPEZE / TR"
+                                TextColor="Black" 
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="11" Grid.Column="0" 
+                                Clicked="Trapeze_Button"/>
                     </Grid>
                 </StackLayout>
             </ScrollView>
