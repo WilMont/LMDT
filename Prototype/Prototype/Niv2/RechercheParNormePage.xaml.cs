@@ -63,6 +63,11 @@ namespace Prototype
             await Navigation.PushAsync(new NormeGazConiqueAmericainPage());
         }
 
+        async void GazCylindriqueAnglais_Button(object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new NormeGazConiqueAnglaisPage());
+        }
+
         async void PasElectrique_Button(object sender, EventArgs args)
         {
             await Navigation.PushAsync(new NormePasElectriquePage());

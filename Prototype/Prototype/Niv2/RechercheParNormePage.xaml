@@ -109,7 +109,7 @@
                                 Grid.Row="9" Grid.Column="0" 
                                 Clicked="GazCylindriqueAmericain_Button"/>
 
-                        <Button Text="PAS ELECTRIQUE / PG"
+                        <Button Text="GAZ CONIQUE ANGLAIS / BSTP"  
                                 TextColor="Black"
                                 BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
@@ -117,9 +117,9 @@
                                 VerticalOptions="Center" 
                                 HeightRequest="70" 
                                 Grid.Row="10" Grid.Column="0" 
-                                Clicked="PasElectrique_Button"/>
+                                Clicked="GazCylindriqueAnglais_Button"/>
 
-                        <Button Text="TRAPEZE / TR"
+                        <Button Text="PAS ELECTRIQUE / PG"
                                 TextColor="Black"
                                 BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
@@ -127,6 +127,16 @@
                                 VerticalOptions="Center" 
                                 HeightRequest="70" 
                                 Grid.Row="11" Grid.Column="0" 
+                                Clicked="PasElectrique_Button"/>
+
+                        <Button Text="TRAPEZE / TR"
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
+                                FontAttributes="Bold" 
+                                HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="70" 
+                                Grid.Row="12" Grid.Column="0" 
                                 Clicked="Trapeze_Button"/>
                     </Grid>
                 </StackLayout>
