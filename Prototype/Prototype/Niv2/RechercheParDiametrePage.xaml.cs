@@ -203,8 +203,8 @@ namespace Prototype
                 TabBtnLabelPas.IsVisible = true;
                 TabBtnLabelPerçage.IsVisible = true;
 
-                BouttonChoixPas.Text = textPas;
-                BoutonChoixPerçage.Text = textPourPerçage;
+                BouttonChoixPas.Text = textPas.Trim();
+                BoutonChoixPerçage.Text = textPourPerçage.Trim();
             });
         }
 

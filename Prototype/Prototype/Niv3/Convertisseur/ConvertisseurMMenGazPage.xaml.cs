@@ -89,8 +89,8 @@ namespace Prototype
                 ImageConversion.IsVisible = true;
                 FrameImage.IsVisible = true;
 
-                BouttonChoixMM.Text = text_MM;
-                BouttonChoixGaz.Text = text_Gaz;
+                BouttonChoixMM.Text = text_MM.Trim();
+                BouttonChoixGaz.Text = text_Gaz.Trim();
             });
         }
 
@@ -111,8 +111,8 @@ namespace Prototype
                 ImageConversion.IsVisible = true;
                 FrameImage.IsVisible = true;
 
-                BouttonChoixMM.Text = text_MM;
-                BouttonChoixGaz.Text = text_Gaz;
+                BouttonChoixMM.Text = text_MM.Trim();
+                BouttonChoixGaz.Text = text_Gaz.Trim();
             });
         }
     }

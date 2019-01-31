@@ -20,7 +20,8 @@
                         <Label Text="Choisissez une norme" Font="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
 
                         <Button Text="METRIQUE / M"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -29,7 +30,8 @@
                                 Clicked="Metrique_Button"/>
 
                         <Button Text="METRIQUE FIN / MF"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -38,7 +40,8 @@
                                 Clicked="MetriqueFin_Button"/>
 
                         <Button Text="AMERICAIN / UNC"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -47,7 +50,8 @@
                                 Clicked="Americain_Button"/>
 
                         <Button Text="AMERICAIN FIN / UNF"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -56,7 +60,8 @@
                                 Clicked="AmericainFin_Button"/>
 
                         <Button Text="AMERICAIN EXTRA FIN / UNEF"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -65,7 +70,8 @@
                                 Clicked="AmericainExtraFin_Button"/>
 
                         <Button Text="ANGLAIS / BSW"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -74,7 +80,8 @@
                                 Clicked="Anglais_Button"/>
 
                         <Button Text="ANGLAIS FIN / BSF"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -83,7 +90,8 @@
                                 Clicked="AnglaisFin_Button"/>
 
                         <Button Text="GAZ CYLINDRIQUE / BSP"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -92,7 +100,8 @@
                                 Clicked="GazCylindrique_Button"/>
 
                         <Button Text="GAZ CONIQUE AMERICAIN / NPT"  
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -101,7 +110,8 @@
                                 Clicked="GazCylindriqueAmericain_Button"/>
 
                         <Button Text="PAS ELECTRIQUE / PG"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="Transparent"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 
@@ -110,7 +120,8 @@
                                 Clicked="PasElectrique_Button"/>
 
                         <Button Text="TRAPEZE / TR"
-                                TextColor="Black" 
+                                TextColor="Black"
+                                BackgroundColor="LightGray"
                                 FontAttributes="Bold" 
                                 HorizontalOptions="Fill" 
                                 VerticalOptions="Center" 

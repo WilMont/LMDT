@@ -100,8 +100,8 @@ namespace Prototype
                 ImageConversion.IsVisible = true;
                 FrameImage.IsVisible = true;
 
-                BouttonChoixMM.Text = text_MM;
-                BouttonChoixPouces.Text = text_Pouces;
+                BouttonChoixMM.Text = text_MM.Trim();
+                BouttonChoixPouces.Text = text_Pouces.Trim();
             });
         }
 
@@ -122,8 +122,8 @@ namespace Prototype
                 ImageConversion.IsVisible = true;
                 FrameImage.IsVisible = true;
 
-                BouttonChoixMM.Text = text_MM;
-                BouttonChoixPouces.Text = text_Pouces;
+                BouttonChoixMM.Text = text_MM.Trim();
+                BouttonChoixPouces.Text = text_Pouces.Trim();
             });
         }
     }

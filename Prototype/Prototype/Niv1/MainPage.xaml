@@ -40,8 +40,8 @@
                 </Grid.ColumnDefinitions>
 
                 <Button Text="Normes"
-                BackgroundColor="SaddleBrown"
                 TextColor="Black"
+                BackgroundColor="SaddleBrown"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="Center"
                 Font="26"
@@ -109,6 +109,7 @@
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="Start"
                         FontAttributes="Bold"
+                        WidthRequest="200"
                         BorderColor="Chocolate"
                         BorderWidth="1" 
                         x:Name="Logo_LMDT"
