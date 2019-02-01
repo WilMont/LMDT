@@ -10,18 +10,18 @@
             <ScrollView>
                 <StackLayout>
                     <Grid HorizontalOptions="Fill"
-                VerticalOptions="Start"
-                HeightRequest="25"
-                BackgroundColor="WhiteSmoke"
-                Opacity="0.75">
-                        <Label Text="AMERICAIN EXTRA FIN / UNEF"
-                TextColor="Black"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                FontSize="Default" />
+                          VerticalOptions="Start"
+                          HeightRequest="25"
+                          BackgroundColor="WhiteSmoke"
+                          Opacity="0.75">
+                    <Label Text="AMERICAIN EXTRA FIN / UNEF"
+                           TextColor="Black"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontSize="Default" />
                     </Grid>
 
-                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelDiametre" Margin="-10">
+                    <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="250" x:Name="TabBtnLabelDiametre" Margin="-10">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
@@ -29,12 +29,12 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Diamètre" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Diamètre" TextColor="White" FontAttributes="Bold" Font="30" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="SaddleBrown"
                             FontAttributes="Bold"
-                            FontSize="Default"
+                            Font="26"
                             BorderColor="Chocolate"
                             BorderRadius="7"
                             BorderWidth="1"
@@ -104,7 +104,7 @@
 
                     </Grid>
 
-                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPas" Margin="-10">
+                    <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="250" x:Name="TabBtnLabelPas">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
@@ -112,12 +112,12 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Pas" TextColor="White" FontAttributes="Bold" Font="30" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="Gray"
                             FontAttributes="Bold"
-                            FontSize="Default"
+                            Font="26"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"
@@ -126,7 +126,7 @@
                     </Grid>
 
 
-                    <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" WidthRequest="150" x:Name="TabBtnLabelPerçage">
+                    <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="250" x:Name="TabBtnLabelPerçage">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
@@ -134,12 +134,12 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
+                        <Label Text="Perçage" TextColor="White" FontAttributes="Bold" Font="30" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Choisir"
                             TextColor="Black"
                             BackgroundColor="Gray"
                             FontAttributes="Bold"
-                            FontSize="Default"
+                            Font="26"
                             BorderColor="Black"
                             BorderRadius="7"
                             BorderWidth="1"

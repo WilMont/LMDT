@@ -13,7 +13,7 @@
                            TextColor="WhiteSmoke"
                            HorizontalOptions="CenterAndExpand"
                            VerticalOptions="EndAndExpand"
-                           FontSize="Default"
+                           Font="30"
                            FontAttributes="Bold"
                            x:Name="LabelBtn1"/>
                     <Button Text="Choisir"
@@ -22,7 +22,7 @@
                             HorizontalOptions="CenterAndExpand"
                             VerticalOptions="StartAndExpand"
                             WidthRequest="150" 
-                            FontSize="Default"
+                            Font="26"
                             BorderColor="Chocolate"
                             BorderRadius="7"
                             BorderWidth="1" 
@@ -110,14 +110,14 @@
                     </Grid>
 
                     <Frame x:Name="FrameImage" BackgroundColor="WhiteSmoke" Opacity="0.5" BorderColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" CornerRadius="75">
-                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-150x150.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
+                        <Image Source="http://handwerk-outillage.fr/wp-content/uploads/2019/01/DoubleFlecheConversion-300x300.png" HorizontalOptions="CenterAndExpand" x:Name="ImageConversion"/>
                     </Frame>
 
                     <Label Text="Gaz vers MM" 
                            TextColor="WhiteSmoke"
                            HorizontalOptions="CenterAndExpand"
                            VerticalOptions="EndAndExpand"
-                           FontSize="Default"
+                           Font="30"
                            FontAttributes="Bold"
                            x:Name="LabelBtn2"/>
                     <Button Text="Choisir"
@@ -126,7 +126,7 @@
                             HorizontalOptions="CenterAndExpand"
                             VerticalOptions="StartAndExpand"
                             WidthRequest="150" 
-                            FontSize="Default"
+                            Font="26"
                             BorderColor="Chocolate"
                             BorderRadius="7"
                             BorderWidth="1"
