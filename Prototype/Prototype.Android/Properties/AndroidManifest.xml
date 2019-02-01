@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.Prototype">
-    <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-    <application android:label="Prototype.Android"></application>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.1 Alpha" package="com.LMDT.LMDT" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+	<application android:label="Tarauds et filetages2" android:icon="@mipmap/Icon_LMDT"></application>
+  #if DEBUG
+  [assembly: Application(Debuggable=true)]
+  #else
+  [assembly: Application(Debuggable=false)]
+  #endif
 </manifest>
