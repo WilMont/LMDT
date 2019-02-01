@@ -54,50 +54,50 @@
                         <Label Text="Choisissez un diamètre de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Diametre"/>
 
-                        <Button Text="1/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="1/8     28 8.8  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1/8" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="1/8     28 8.8  " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="2" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="1/4''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
-                        <Button Text="1/4     19 11.8  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1/4''" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="1/4     19 11.8  " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="3" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="3/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
-                        <Button Text="3/8     19 15.25 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="3/8" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="3/8     19 15.25 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="4" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
-                        <Button Text="1/2     14 19    " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1/2" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="1/2     14 19    " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="5" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
-                        <Button Text="3/4     14 24.5  " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="3/4" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="3/4     14 24.5  " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="6" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="1''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
-                        <Button Text="1''     11  30.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1''" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="1''     11  30.75" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="7" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="1'' 1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
-                        <Button Text="1'' 1/4 11  39.5 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1'' 1/4" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="1'' 1/4 11  39.5 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="8" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="1'' 1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
-                        <Button Text="1'' 1/2 11  45.25" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="1'' 1/2" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="1'' 1/2 11  45.25" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="9" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="2''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
-                        <Button Text="2''     11  57.2 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="2''" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="2''     11  57.2 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="10" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="2'' 1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
-                        <Button Text="2'' 1/4 11  63.3 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="2'' 1/4" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="2'' 1/4 11  63.3 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="11" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="2'' 1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
-                        <Button Text="2'' 1/2 11  72.8 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="12" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="2'' 1/2" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="2'' 1/2 11  72.8 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="12" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="2'' 3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
-                        <Button Text="2'' 3/4 11  79.1 " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="13" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="2'' 3/4" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="13" Grid.Column="0"/>
+                        <Button Text="2'' 3/4 11  79.1 " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="13" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="3''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
-                        <Button Text="3''     11  85.5   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="14" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="3''" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="14" Grid.Column="0"/>
+                        <Button Text="3''     11  85.5   " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="14" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="3'' 1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
-                        <Button Text="3'' 1/2 11  98   " TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="15" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="3'' 1/2" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="15" Grid.Column="0"/>
+                        <Button Text="3'' 1/2 11  98   " TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="15" Grid.Column="0" Clicked="Button_Click"/>
 
-                        <Button Text="4''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
-                        <Button Text="4''     11  110.5" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="16" Grid.Column="0" Clicked="Button_Click"/>
+                        <Button Text="4''" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="16" Grid.Column="0"/>
+                        <Button Text="4''     11  110.5" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="16" Grid.Column="0" Clicked="Button_Click"/>
                     </Grid>
 
 
