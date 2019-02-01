@@ -55,56 +55,56 @@
                         <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="RetourDiametre_Clicked"/>
                         <!-- NORME -->
                         <!-- 3/16 -->
-                        <Button Text="3/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="D3/16 P32 F4"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="3/16" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
+                        <Button Text="D3/16 P32 F4"   TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="2" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 1/4 -->
-                        <Button Text="1/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0"/>
-                        <Button Text="D1/4 P26 F5.3"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="2" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="1/4" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
+                        <Button Text="D1/4 P26 F5.3"   TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="3" Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
                         <!-- 5/16 -->
-                        <Button Text="5/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="3" Grid.Column="0"/>
-                        <Button Text="D5/16 P22 F6.8"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="3"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="5/16" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
+                        <Button Text="D5/16 P22 F6.8"   TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="4"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 3/8 -->
-                        <Button Text="3/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="4" Grid.Column="0"/>
-                        <Button Text="D3/8 P20 F8.3"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="4"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="3/8" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
+                        <Button Text="D3/8 P20 F8.3"    TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="5"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 7/16 -->
-                        <Button Text="7/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="5" Grid.Column="0"/>
-                        <Button Text="D7/16 P18 F9.7"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="5"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="7/16" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
+                        <Button Text="D7/16 P18 F9.7"    TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="6"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 1/2 -->
-                        <Button Text="1/2" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="6" Grid.Column="0"/>
-                        <Button Text="D1/2 P16 F11.1"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="6"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="1/2" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
+                        <Button Text="D1/2 P16 F11.1"   TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="7"   Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
                         <!-- 9/16 -->
-                        <Button Text="9/16" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="7" Grid.Column="0"/>
-                        <Button Text="D9/16 P16 F12.7"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="7"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="9/16" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
+                        <Button Text="D9/16 P16 F12.7"    TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="8"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 5/8 -->
-                        <Button Text="5/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="8" Grid.Column="0"/>
-                        <Button Text="D5/8 P14 F14"   TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="8"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="5/8" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
+                        <Button Text="D5/8 P14 F14"   TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="9"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 3/4 -->
-                        <Button Text="3/4" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="9" Grid.Column="0"/>
-                        <Button Text="D3/4 P12 F16.75"  TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="9"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="3/4" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
+                        <Button Text="D3/4 P12 F16.75"  TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="10"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 7/8 -->
-                        <Button Text="7/8" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="10" Grid.Column="0"/>
-                        <Button Text="D7/8 P11 F19.75"    TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="10"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="7/8" TextColor="Black" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
+                        <Button Text="D7/8 P11 F19.75"    TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="11"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
 
                         <!-- 1'' -->
-                        <Button Text="1''" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="11" Grid.Column="0"/>
-                        <Button Text="D1'' P10 F22.75" TextColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="0" Grid.Row="11"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
+                        <Button Text="1''" TextColor="Black" BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="12" Grid.Column="0"/>
+                        <Button Text="D1'' P10 F22.75" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="12"  Grid.Column="0" Clicked="ButtonChoixDiametre_Clicked"/>
 
                     </Grid>
 

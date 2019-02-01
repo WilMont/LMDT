@@ -109,7 +109,7 @@
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="Start"
                         FontAttributes="Bold"
-                        WidthRequest="200"
+                        WidthRequest="250"
                         BorderColor="Chocolate"
                         BorderWidth="1" 
                         x:Name="Logo_LMDT"
