@@ -46,10 +46,10 @@
 
                     <Grid x:Name="Tab_Diametre" IsVisible="False" HorizontalOptions="Center" BackgroundColor="AntiqueWhite" Opacity="0.5">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
+                            <RowDefinition Height="auto" />
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="auto" />
                         </Grid.ColumnDefinitions>
 
                         <Label Text="Choisissez un diamètre de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>

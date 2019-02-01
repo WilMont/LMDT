@@ -24,6 +24,7 @@ namespace Prototype
         //ButtonDiametre_Clicked(): Affiche la liste des diamètres disponibles quand on clique sur le bouton "Diamètre".
         public void BoutonDiametre_Clicked(object sender, EventArgs args)
         {
+
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = true;
                 TabBtnLabelDiametre.IsVisible = false;
@@ -70,12 +71,15 @@ namespace Prototype
                 TabBtnLabelPas.IsVisible = true;
                 TabBtnLabelPerçage.IsVisible = true;
                 BoutonDiametre.Text = texteDiametre;
-                BoutonForet.BackgroundColor = Color.Gray;
 
                 if (BoutonDiametre.Text == texteDiametre && BoutonDiametre.Text != "1''")
                 {
                     BoutonPas.Text = textePas;
                     BoutonForet.Text = texteForet;
+                    BoutonForet.BackgroundColor = Color.Gray;
+                    BoutonForet.BorderColor = Color.Black;
+                    BoutonPas.BackgroundColor = Color.Gray;
+                    BoutonPas.BorderColor = Color.Black;
                 }
                 else
                 {
