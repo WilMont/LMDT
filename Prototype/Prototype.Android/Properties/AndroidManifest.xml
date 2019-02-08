@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.1 Alpha" package="com.TauraudEtFiletages.LMDT" android:installLocation="internalOnly">
-	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
-	<application android:label="Tarauds et filetages2"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.4 Alpha" package="com.TaraudsEtFiletages.LMDT" android:installLocation="internalOnly">
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="27" />
+	<application android:label="Tarauds et Filetages" android:icon="@mipmap/icon"></application>
   #if DEBUG
   [assembly: Application(Debuggable=true)]
   #else

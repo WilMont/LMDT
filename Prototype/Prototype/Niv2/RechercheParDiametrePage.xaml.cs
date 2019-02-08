@@ -8,13 +8,13 @@ using Xamarin.Forms.Xaml;
 
 namespace Prototype
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class RechercheParDiametrePage : ContentPage
-	{
-		public RechercheParDiametrePage ()
-		{
-			InitializeComponent ();
-		}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class RechercheParDiametrePage : ContentPage
+    {
+        public RechercheParDiametrePage()
+        {
+            InitializeComponent();
+        }
 
         public void ButtonChoixDiametre_clicked(object sender, EventArgs args)
         {
@@ -23,6 +23,7 @@ namespace Prototype
                 TabBtnLabelDiametre.IsVisible = false;
                 TabBtnLabelPas.IsVisible = false;
                 TabBtnLabelPerçage.IsVisible = false;
+                Tab_Diametre.ForceLayout();
             });
         }
 
@@ -36,15 +37,17 @@ namespace Prototype
             });
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+        ///
         public void ButtonChoixPas_clicked(object sender, EventArgs args)
         {
+            if (BouttonChoixPas.BackgroundColor != Color.Gray) { 
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Pas.IsVisible = true;
                 TabBtnLabelDiametre.IsVisible = false;
                 TabBtnLabelPas.IsVisible = false;
                 TabBtnLabelPerçage.IsVisible = false;
             });
+            }
         }
 
         public void Retour_Pas(object sender, EventArgs args)

@@ -52,7 +52,9 @@
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Choisissez un diamètre de taraud" FontSize="Large" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+                        <ScrollView>
+                            <Grid>
+                                <Label Text="Choisissez un diamètre de taraud." FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Retour" TextColor="Black" BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="2" Grid.Column="0" Clicked="Retour_Diametre"/>
 
                         <Button Text="1mm"                  TextColor="Black" BackgroundColor="LightGray" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="3"   Grid.Column="0"/>
@@ -310,6 +312,8 @@
                         <Button Text="101,600mm - 4''"      TextColor="Black" BackgroundColor="LightGray" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="87"  Grid.Column="0"/>
                         <Button Text="101,600mm - 4''    11 BSP      ########### ########### ########### ########### ########### ########### ########### 110.5 @@@@@ @@@@@ @@@@@ @@@@@ @@@@@ @@@@@ @@@@@" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="87" Grid.Column="0" Clicked="Button_Click" />
                     </Grid>
+            </ScrollView>
+                    </Grid>
 
                     <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="250" x:Name="TabBtnLabelPas">
                         <Grid.RowDefinitions>
@@ -340,7 +344,8 @@
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Label Text="Choisissez un pas de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
+
+                            <Label Text="Choisissez un pas de taraud" FontSize="Medium" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Fill" Grid.Row="0" Grid.Column="0"/>
                         <Button Text="Retour" TextColor="Black"  BackgroundColor="WhiteSmoke" BorderWidth="2" BorderColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Row="1" Grid.Column="0" Clicked="Retour_Pas"/>
 
                         <Button x:Name="BtnPasChoix1Front" Text=""  TextColor="Black" BackgroundColor="LightGray" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="2"  Grid.Column="0"/>
@@ -366,7 +371,8 @@
 
                         <Button x:Name="BtnPasChoix8Front" Text=""  TextColor="Black" BackgroundColor="Transparent" FontAttributes="Bold" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="9"  Grid.Column="0"/>
                         <Button x:Name="BtnPasChoix8" Text="" TextColor="Transparent" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Opacity="1" Grid.Row="9"  Grid.Column="0" Clicked="ButtonPas_Click"/>
-                    </Grid>
+                   
+                        </Grid>
 
                     <Grid HorizontalOptions="Center" VerticalOptions="CenterAndExpand" WidthRequest="250" x:Name="TabBtnLabelPerçage">
                         <Grid.RowDefinitions>

@@ -26,6 +26,7 @@ namespace Prototype.Niv3.Normes
                 TabBtnLabelDiametre.IsVisible = false;
                 TabBtnLabelPas.IsVisible = false;
                 TabBtnLabelPerçage.IsVisible = false;
+                TabBtnLabelPerçage.ForceLayout();
             });
         }
 
@@ -33,9 +34,15 @@ namespace Prototype.Niv3.Normes
         {
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = false;
+                Tab_Diametre.ForceLayout();
                 TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelDiametre.ForceLayout();
+
                 TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPas.ForceLayout();
+
                 TabBtnLabelPerçage.IsVisible = true;
+                TabBtnLabelPerçage.ForceLayout();
             });
         }
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -56,13 +63,25 @@ namespace Prototype.Niv3.Normes
 
             Device.BeginInvokeOnMainThread(() => {
                 Tab_Diametre.IsVisible = false;
+
+
                 TabBtnLabelDiametre.IsVisible = true;
+                TabBtnLabelDiametre.ForceLayout();
+
+
                 TabBtnLabelPas.IsVisible = true;
+                TabBtnLabelPas.ForceLayout();
+
+                TabBtnLabelPerçage.ForceLayout();
                 TabBtnLabelPerçage.IsVisible = true;
+                TabBtnLabelPerçage.ForceLayout();
+
                 BoutonChoixDiametre.Text = textDiametre.Trim();
+
                 BoutonChoixPas.BackgroundColor = Color.SaddleBrown;
                 BoutonChoixPas.BorderColor = Color.Chocolate;
                 BoutonChoixPas.Text = "Choisir";
+
                 BoutonChoixForet.Text = "Choisir";
                 BoutonChoixForet.BackgroundColor = Color.Gray;
             });

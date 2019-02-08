@@ -10,7 +10,7 @@
         
 
         <StackLayout>
-            <Label Text="Tarauds et filtages"
+            <Label Text="Tarauds et filetages"
                TextColor="WhiteSmoke"
                HorizontalOptions="CenterAndExpand"
                VerticalOptions="EndAndExpand"
@@ -72,7 +72,7 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand"
                 Font="26"
-                WidthRequest="240"
+                WidthRequest="250"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
@@ -84,7 +84,7 @@
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="StartAndExpand"
                 Font="26"
-                WidthRequest="240"
+                WidthRequest="250"
                 BorderColor="Chocolate"
                 BorderRadius="7"
                 BorderWidth="1"
